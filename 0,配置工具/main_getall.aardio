@@ -1,0 +1,84 @@
+import console;
+import process;
+
+io.open()
+import fsys.dlg;
+
+var newxml = "    <!-- MIUI_MagicWindow+ -->" + '\r\n'
+var base = string.load("\res\embedded_rules_list.xml")
+
+var path = fsys.dlg.open('所有文件|*.*|文本文件|*.txt||',,,winform);
+if(path){
+	io.print(path)
+	
+	for lines in io.lines(path){
+		//判断行是什么
+		if(string.find(lines, "\<\!\-\- ver [\d\.]+ \-\-\>")){
+			//io.print(lines)
+			newxml = newxml + lines + '\r\n'
+		}
+		elseif(string.find(lines, "name")){
+			var m = /*name\="([\a\d\_\.]+)"*/
+			name = string.match(lines, m)
+			//io.print(name)
+		
+			if(name != null && name != ""){
+				if(!string.find(base, name)){ //如果不是新的
+					if(!string.find(lines, 'window_mode="4"')){
+						var s = "    <package name="
+						s = s + '"' + name + '" '
+						//显示模式
+						if(string.find(lines, 'window_mode="0"')){
+							//s = s + 'middleRule="*" '
+						}
+						
+						//多重活动
+						if(string.find(lines, 'support_multi_resume="true"')){
+							s = s + 'clearTop="true" '
+						}
+						
+						//相机控制
+						if(string.find(lines, 'support_camera_preview="false"')){
+							s = s + 'supportCameraPreview="false" '
+						}
+						
+						/*
+						//重绘界面，这个参数不能加，加了会导致无法正常平行视界
+						if(string.find(lines, 'is_scaled="true"')){
+							s = s + 'sizecompatRatio="5:4" '
+							s = s + 'sizecompatRule="*" '
+						}
+						*/
+						
+						//重新加载
+						if(string.find(lines, 'need_relaunch="true"')){
+							s = s + 'relaunch="true" '
+						}
+						
+						//左右比例
+						if(string.find(lines, 'is_dragable="true"') || string.find(lines, 'is_left_window_one_third="true"')){
+							s = s + 'splitRatio="0.33" '
+						}
+						
+						//分屏规则
+						var h = /*home\="([\a\d\_\.]+)"*/
+						if(string.match(lines, h)){
+							var home = string.match(lines, h)
+							s = s + 'splitPairRule="' + home + ':*" '
+						}
+						
+						io.print(s)
+						
+						newxml = newxml + s + '/>\r\n'	
+					}
+				}
+			}
+		
+		}
+		//其他行都抛弃
+	}
+	string.save("\output\newRule.xml", newxml)
+	process.explore("\output\")
+}
+//io.print(newxml)
+console.pause()

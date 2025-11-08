@@ -1,0 +1,1036 @@
+import win.clip;
+import win.ui;
+import win.inputBox;
+import win.ui.tooltip
+import fsys;
+import fsys.dlg;
+import win.ui.minmax;
+import sevenZip.cmd;
+import console;
+import web.msxml;
+/*DSG{{*/
+mainForm = win.form(text="完美横屏应用计划修改器";right=1035;bottom=751)
+mainForm.add(
+ADB={cls="edit";left=13;top=658;right=699;bottom=707;bgcolor=0;color=16777215;db=1;dl=1;dr=1;dt=1;edge=1;font=LOGFONT(name='Consolas');multiline=1;vscroll=1;z=50};
+Able11={cls="checkbox";text="安卓11";left=399;top=140;right=499;bottom=161;dl=1;dt=1;z=16};
+Able12={cls="checkbox";text="安卓12/13/14";left=517;top=140;right=617;bottom=161;dl=1;dt=1;z=17};
+Apply={cls="button";text="打包";left=623;top=714;right=699;bottom=742;db=1;dr=1;z=7};
+Apply11={cls="button";text='应用 \u221A';left=613;top=306;right=689;bottom=334;dr=1;dt=1;z=13};
+Apply12={cls="button";text='应用 \u221A';left=613;top=610;right=689;bottom=638;dr=1;dt=1;z=12};
+CheckError={cls="button";text="错误筛查";left=535;top=610;right=611;bottom=638;dr=1;dt=1;z=53};
+Delete11={cls="button";text="移除 ×";left=613;top=202;right=689;bottom=230;dr=1;dt=1;z=45};
+Delete12={cls="button";text="移除 ×";left=612;top=377;right=688;bottom=405;dr=1;dt=1;z=46};
+GetActivity={cls="button";text="获取Activity";left=14;top=714;right=90;bottom=742;db=1;dl=1;z=49};
+Import={cls="button";text="导入";left=25;top=610;right=101;bottom=638;dl=1;dt=1;z=51};
+Kind={cls="edit";left=243;top=70;right=339;bottom=95;disabled=1;dl=1;dt=1;edge=1;hidesel=1;z=56};
+List={cls="listbox";left=708;top=47;right=1026;bottom=707;db=1;dr=1;dt=1;edge=1;items={};vscroll=1;z=1};
+Open={cls="button";text="浏览...";left=623;top=14;right=699;bottom=41;dr=1;dt=1;z=4};
+Package={cls="edit";left=79;top=137;right=365;bottom=162;dl=1;dt=1;edge=1;hidesel=1;z=15};
+Path={cls="edit";left=79;top=14;right=617;bottom=39;disabled=1;dl=1;dr=1;dt=1;edge=1;hidesel=1;multiline=1;z=3};
+Search={cls="button";text="搜索...";left=949;top=14;right=1025;bottom=41;dr=1;dt=1;z=48};
+SearchText={cls="edit";text="请输入包名(支持只输入前半部分)";left=708;top=14;right=943;bottom=39;align="center";dr=1;dt=1;edge=1;hidesel=1;z=47};
+ShowHelp={cls="button";text="查看教程";left=949;top=714;right=1025;bottom=742;db=1;dr=1;z=54};
+Version={cls="edit";text="0.0.0";left=79;top=70;right=175;bottom=95;disabled=1;dl=1;dt=1;edge=1;hidesel=1;z=10};
+activityRule={cls="edit";left=118;top=536;right=688;bottom=561;dl=1;dr=1;dt=1;edge=1;hidesel=1;z=39};
+clearTop={cls="checkbox";text="右侧多实例";left=25;top=413;right=173;bottom=430;dl=1;dt=1;z=30};
+disableSensor={cls="checkbox";text="禁用传感器";left=25;top=440;right=173;bottom=461;dl=1;dt=1;z=44};
+fullRule={cls="checkbox";text="强制横屏全屏";left=211;top=440;right=359;bottom=461;dl=1;dt=1;z=52};
+groupbox={cls="groupbox";text="安卓11设置";left=13;top=181;right=700;bottom=345;bgcolor=12632256;dl=1;dr=1;dt=1;edge=1;z=5};
+groupbox2={cls="groupbox";text="安卓12/13/14设置";left=13;top=353;right=700;bottom=649;bgcolor=12632256;dl=1;dr=1;dt=1;edge=1;z=6};
+groupbox3={cls="groupbox";text="模块信息";left=13;top=47;right=700;bottom=106;bgcolor=12632256;dl=1;dr=1;dt=1;edge=1;z=8};
+groupbox4={cls="groupbox";text="应用信息";left=13;top=113;right=700;bottom=173;bgcolor=12632256;dl=1;dr=1;dt=1;edge=1;z=11};
+hide1={cls="static";text="主页Activity";left=25;top=302;right=103;bottom=323;dl=1;dt=1;transparent=1;z=27};
+hide2={cls="static";text="软件版本";left=329;top=302;right=407;bottom=323;dl=1;dt=1;transparent=1;z=26};
+hide3={cls="static";text="主页Activity";left=25;top=471;right=103;bottom=492;dl=1;dt=1;transparent=1;z=34};
+hide4={cls="static";text="分屏规则";left=25;top=507;right=103;bottom=528;dl=1;dt=1;transparent=1;z=36};
+hide5={cls="static";text="全屏Activity";left=25;top=542;right=103;bottom=563;dl=1;dt=1;transparent=1;z=38};
+hide6={cls="static";text="互换Activity";left=25;top=579;right=103;bottom=600;dl=1;dt=1;transparent=1;z=40};
+home={cls="edit";left=118;top=297;right=300;bottom=322;dl=1;dt=1;edge=1;hidesel=1;z=29};
+is_dragable={cls="checkbox";text="左右可调";left=25;top=240;right=173;bottom=261;dl=1;dt=1;z=20};
+is_scaled={cls="checkbox";text="重绘窗口大小";left=396;top=239;right=544;bottom=260;dl=1;dt=1;z=24};
+need_relaunch={cls="checkbox";text="重加载窗口";left=396;top=266;right=544;bottom=287;dl=1;dt=1;z=25};
+placeholder={cls="edit";left=118;top=466;right=688;bottom=491;dl=1;dr=1;dt=1;edge=1;hidesel=1;z=35};
+relaunch={cls="checkbox";text="重加载窗口";left=396;top=440;right=544;bottom=461;dl=1;dt=1;z=33};
+scaleMode={cls="checkbox";text="重绘窗口大小";left=396;top=413;right=544;bottom=434;dl=1;dt=1;z=32};
+splitPairRule={cls="edit";left=118;top=501;right=688;bottom=526;dl=1;dr=1;dt=1;edge=1;hidesel=1;z=37};
+splitRatio={cls="combobox";left=94;top=379;right=174;bottom=403;dl=1;dt=1;edge=1;items={"0.35";"0.42";"0.65"};mode="dropdown";z=43};
+static={cls="static";text="导入模块";left=14;top=20;right=83;bottom=40;dl=1;dt=1;transparent=1;z=2};
+static13={cls="static";text="分屏比例";left=25;top=384;right=86;bottom=406;dl=1;dt=1;transparent=1;z=42};
+static2={cls="static";text="版本号";left=25;top=76;right=78;bottom=97;dl=1;dt=1;transparent=1;z=9};
+static3={cls="static";text="文件类";left=189;top=76;right=242;bottom=97;dl=1;dt=1;transparent=1;z=55};
+static4={cls="static";text="包名";left=25;top=143;right=78;bottom=164;dl=1;dt=1;transparent=1;z=14};
+static5={cls="static";text="分屏模式";left=25;top=209;right=86;bottom=231;dl=1;dt=1;transparent=1;z=18};
+supportCameraPreview={cls="checkbox";text="支持拍照全屏";left=211;top=413;right=359;bottom=434;checked=1;dl=1;dt=1;z=31};
+support_camera_preview={cls="checkbox";text="支持拍照全屏";left=211;top=239;right=359;bottom=260;checked=1;dl=1;dt=1;z=23};
+support_fullscreen_video={cls="checkbox";text="支持视频全屏";left=211;top=266;right=359;bottom=287;checked=1;dl=1;dt=1;z=22};
+support_multi_resume={cls="checkbox";text="左右同时活动";left=25;top=267;right=173;bottom=288;dl=1;dt=1;z=21};
+transitionRules={cls="edit";left=118;top=572;right=688;bottom=597;dl=1;dr=1;dt=1;edge=1;hidesel=1;z=41};
+version={cls="edit";left=396;top=297;right=529;bottom=322;dl=1;dt=1;edge=1;hidesel=1;z=28};
+window_mode={cls="combobox";left=92;top=204;right=172;bottom=228;dl=1;dt=1;edge=1;items={"分屏";"仅居中";"横向拉伸";"未配置"};mode="dropdownlist";z=19}
+)
+/*}}*/
+
+import win.ui.atom;
+var atom,hwnd = mainForm.atom("aardio.pattern.F4700CFB-A4ED-4637-8F19-C76B3B8DC7F9");
+if(!atom){ 
+	win.quitMessage();	return;
+}
+
+if(io.exist("\default.aproj"))io.open()
+
+win.ui.minmax(mainForm, 1000, 800)
+
+/*
+if(win.msgboxTest("是否进入新手模式（新手推荐）？", "模式选择", mainForm.hwnd)){
+	mainForm.hide1.disabled = true;
+	mainForm.hide2.disabled = true;
+	mainForm.hide3.disabled = true;
+	mainForm.hide4.disabled = true;
+	mainForm.hide5.disabled = true;
+	mainForm.hide6.disabled = true;
+	
+	mainForm.home.disabled = true;
+	mainForm.version.disabled = true;
+	mainForm.placeholder.disabled = true;
+	mainForm.splitPairRule.disabled = true;
+	mainForm.activityRule.disabled = true;
+	mainForm.transitionRules.disabled = true;
+	
+	mainForm.text = mainForm.text + "(新手模式)"
+}
+else mainForm.text = mainForm.text + "(专业模式)"
+*/
+
+var version = " VER1.3.0.0"
+mainForm.text = mainForm.text + version
+
+mainForm.rules11 = "\tempzip\common\system\magicWindowFeature_magic_window_application_list.xml"
+mainForm.list11 = "\tempzip\common\system\users\0\magic_window_setting_config.xml"
+
+mainForm.rules12 = "\tempzip\common\product\etc\embedded_rules_list.xml"
+
+mainForm.log = "\tempzip.log"
+
+var tooltip = win.ui.tooltip(mainForm);
+tooltip.addTool(mainForm.version,"可以不填")
+tooltip.addTool(mainForm.home,'如果不明白，可以不填。一般只填一个Activity。\r\n如果有多个，用,分隔若干个Activity')
+tooltip.addTool(mainForm.placeholder,'如果不明白，可以不填。\r\n用:分隔左右两个Activity')
+tooltip.addTool(mainForm.splitPairRule,'如果不明白，可以不填。\r\n用:分隔左右两个Activity，\r\n用,分隔若干组Activity')
+tooltip.addTool(mainForm.activityRule,'如果不明白，可以不填。\r\n用,分隔若干个Activity')
+tooltip.addTool(mainForm.transitionRules,'如果不明白，可以不填。\r\n用,分隔若干个Activity')
+
+mainForm.Open.oncommand = function(id,event){
+	var path = fsys.dlg.open('Magisk模块|*.zip|配置文件|*.xml|', "选择要修改的模块或文件")
+	if(path == null) return false;
+	
+	mainForm.Path.text = path
+	
+	mainForm.magisk = io.splitpath(path)
+	fsys.delete(io.fullpath("\tempzip"))
+	
+	if(string.endWith(mainForm.Path.text, "zip", true)){
+		sevenZip.cmd.extract( path
+    		,"\tempzip"
+    		,//console.log //这里可以设置一个回调函数,输出回显结果
+		)
+		io.print("解压完成")
+		
+		var module_prop = string.load("\tempzip\module.prop")
+		
+		var version = string.match(module_prop, "version\=V([\d\.]+)")
+		if(version) mainForm.Version.text = version
+		
+		//var mod = string.match(module_prop, "mod\=V([\d\.]+))")
+		//if(mod) mainForm.Kind.text = "修改版"
+		
+		var versionCode = string.match(module_prop, "versionCode\=([\d]+)")
+		if(tonumber(versionCode) < 999 ){
+			mainForm.Version.showErrorTip("版本过低", "不支持低于0.99.9版本的模块", 2)
+			return false;
+		}
+		
+		/*
+		if(string.find(module_prop, "稳定版")){
+			mainForm.Kind.text = "稳定版"
+			mainForm.is_dragable.disabled = false;
+			mainForm.splitRatio.disabled = false;
+		}
+		elseif(string.find(module_prop, "开发版")){
+			mainForm.Kind.text = "开发版"
+			mainForm.is_dragable.disabled = false;
+			mainForm.splitRatio.disabled = false;
+		}
+		elseif(string.find(module_prop, "红米")){
+			mainForm.Kind.text = "红米版"
+			mainForm.is_dragable.disabled = false;
+			mainForm.splitRatio.disabled = false;
+		}
+		elseif(string.find(module_prop, "折叠屏")){
+			mainForm.Kind.text = "折叠屏版"
+			mainForm.is_dragable.checked = false;
+			mainForm.is_dragable.disabled = true;
+			mainForm.splitRatio.text = "";
+			mainForm.splitRatio.disabled = true;
+		}
+		else{
+			mainForm.Kind.showErrorTip("版本错误", "不支持该版本的模块", 2)
+			return false;
+		}
+		*/
+		mainForm.Kind.text = "模块文件"
+		mainForm.List.clear()
+		getNameList()
+	}
+	else {
+		if(string.find(path, "embedded_rules_list.xml")){
+			mainForm.Kind.text = "安卓12文件"
+			mainForm.Apply.text = "转到文件"
+		
+			fsys.copy(path, mainForm.rules12)
+			
+			mainForm.Delete11.disabled = true
+			mainForm.Apply11.disabled = true
+		}
+		if(string.find(path, "magicWindowFeature_magic_window_application_list.xml")){
+			mainForm.Kind.text = "安卓11文件"
+			mainForm.Apply.text = "转到文件"
+		
+			fsys.copy(path, mainForm.rules11)
+			
+			mainForm.Delete12.disabled = true
+			mainForm.Apply12.disabled = true
+		}
+		mainForm.List.clear()
+		getNameList()
+	}
+}
+
+function getNameList(){
+	//优先读取安卓12的版本
+	io.print("> 开始读取安卓12的配置文件")
+	
+	mainForm.rules12_str = string.load(mainForm.rules12)
+
+	for lines in string.lines(mainForm.rules12_str){
+		//io.print(line)
+		if(string.find(lines, "name")){
+			try{
+				var m = /*name\="([\a\d\_\.]+)"*/
+				var name = string.match(lines, m)
+				//io.print(name)
+				if(mainForm.List.findEx(name)){
+					io.print("该包名配置文件重复", name)
+					mainForm.msgbox("该包名配置文件重复" + name)
+				}
+				else mainForm.List.add(name)
+				
+				//在此处进行一次语法检查：
+				/**
+				//placeholder
+				var p = /*placeholder\="([\a\d\_\.\:\*]+)"*/
+				if(string.match(lines, p)){
+					var placeholder = string.match(lines, p)
+					var p = string.split(placeholder, ":")
+					//io.print(p[1], p[2])
+					
+					var s = /*splitPairRule\="([\a\d\_\.\,\:\*]+)"*/
+					if(string.match(lines, s)){
+						var splitPairRule = string.match(lines, s)
+						if(!string.find(splitPairRule, p[1])){
+							io.print(name, p[1])
+							string.save(mainForm.log, name + '\t' + p[1] + ':*,\r\n', true)
+						}
+					}
+				}
+				**/
+			}
+		}
+	}
+	
+	//用安卓11版本的文件做补充
+	io.print("> 开始读取安卓11的配置文件")
+	
+	
+	mainForm.rules11_str = string.load(mainForm.rules11)
+	for lines in string.lines(mainForm.rules11_str){
+		//io.print(line)
+		if(string.find(lines, "name")){
+			try{
+				var m = /*name\="([\a\d\_\.]+)"*/
+				var name = string.match(lines, m)
+				if(!mainForm.List.find(name)){
+					//io.print(name)
+					mainForm.List.add(name)
+				}
+			}
+		}
+	}
+	
+	io.print("> 所有配置文件已读取完成")	
+}
+
+//从安卓11中读取配置
+function readFromRules11(n){
+	var rules11_str = string.load(mainForm.rules11)
+	
+	var flag = false;
+	for lines in string.lines(rules11_str){
+		//io.print(line)
+		if(string.find(lines, "name")){
+			try{
+				var m = /*name\="([\a\d\_\.]+)"*/
+				var name = string.match(lines, m)
+				if(name == n){
+					flag = true;
+					
+					io.print("> 发现了该包名的安卓11配置: " + name)
+					io.print("> 安卓11配置内容为: ")
+					io.print(lines)
+					mainForm.Able11.checked = true;
+					
+					//window_mode
+					if(string.find(lines, 'window_mode="0"')){
+						mainForm.window_mode.selText = "仅居中"
+					}
+					elseif(string.find(lines, 'window_mode="1"') || string.find(lines, 'window_mode="2"')){
+						mainForm.window_mode.selText = "分屏"
+					}
+					elseif(string.find(lines, 'window_mode="4"')){
+						mainForm.window_mode.selText = "横向拉伸"
+					}
+					else mainForm.window_mode.selText = "未配置"
+					
+					
+					//is_dragable
+					if(string.find(lines, 'is_dragable="true"')){
+						mainForm.is_dragable.checked = true
+					}
+					else mainForm.is_dragable.checked = false
+					
+					//support_multi_resume
+					if(string.find(lines, 'support_multi_resume="true"')){
+						mainForm.support_multi_resume.checked = true
+					}
+					else mainForm.support_multi_resume.checked = false
+					
+					//support_camera_preview
+					if(string.find(lines, 'support_camera_preview="true"')){
+						mainForm.support_camera_preview.checked = true
+					}
+					else mainForm.support_camera_preview.checked = false
+					
+					//support_multi_resume
+					if(string.find(lines, 'support_fullscreen_video="true"')){
+						mainForm.support_fullscreen_video.checked = true
+					}
+					else mainForm.support_fullscreen_video.checked = false
+					
+					//is_scaled
+					if(string.find(lines, 'is_scaled="true"')){
+						mainForm.is_scaled.checked = true
+					}
+					else mainForm.is_scaled.checked = false
+					
+					//need_relaunch
+					if(string.find(lines, 'need_relaunch="true"')){
+						mainForm.need_relaunch.checked = true
+					}
+					else mainForm.need_relaunch.checked = false
+					
+					//home
+					var h = /*home\="([\a\d\_\.\,]+)"*/
+					if(string.match(lines, h)){
+						var home = string.match(lines, h)
+						mainForm.home.text = home
+					}
+					else mainForm.home.text = ""
+					
+					//version
+					var v = /*version\="([\a\d\_\.]+)"*/
+					if(string.match(lines, v)){
+						var va = string.match(lines, v)
+						mainForm.version.text = va
+					}
+					else mainForm.version.text = ""
+					
+					return true;
+				}
+			}
+		}
+	}
+	if(flag == false){
+		//mainForm.msgboxErr("未发现安卓11配置文件中包含该应用：" + n)
+		//checkRemove(n)
+	}
+	
+	return false;
+}
+
+//从安卓12中读取配置
+function readFromRules12(n){
+	var rules12_str = string.load(mainForm.rules12)
+	
+	var flag = false;
+	for lines in string.lines(rules12_str){
+		//io.print(line)
+		if(string.find(lines, "name")){
+			try{
+				var m = /*name\="([\a\d\_\.]+)"*/
+				var name = string.match(lines, m)
+				if(name == n){
+					flag = true;
+					
+					io.print("> 发现了该包名的安卓12配置: " + name)
+					io.print("> 安卓12配置内容为: ")
+					io.print(lines)
+					mainForm.Able12.checked = true;
+					
+					mainForm.splitRatio.text = ""
+					//splitRatio
+					var s = /*splitRatio\="([\a\d\_\.]+)"*/
+					if(string.match(lines, s)){
+						var sp = string.match(lines, s)
+						mainForm.splitRatio.text = sp
+					}
+					
+					//clearTop
+					if(string.find(lines, 'clearTop="true"') || string.find(lines, 'clearTop="1"')){
+						mainForm.clearTop.checked = true
+					}
+					if(string.find(lines, 'clearTop="false"') || string.find(lines, 'clearTop="1"')){
+						mainForm.clearTop.checked = false
+					}
+					else mainForm.clearTop.checked = true
+					
+					//supportCameraPreview
+					if(string.find(lines, 'supportCameraPreview="true"') || string.find(lines, 'supportCameraPreview="1"')){
+						mainForm.supportCameraPreview.checked = true
+					}
+					if(string.find(lines, 'supportCameraPreview="false"') || string.find(lines, 'supportCameraPreview="0"')){
+						mainForm.supportCameraPreview.checked = false
+					}
+					else mainForm.supportCameraPreview.checked = true
+					
+					//scaleMode
+					if(string.find(lines, 'scaleMode="true"') || string.find(lines, 'scaleMode="1"')){
+						mainForm.scaleMode.checked = true
+					}
+					else mainForm.scaleMode.checked = false
+					
+					//disableSensor
+					if(string.find(lines, 'disableSensor="true"') || string.find(lines, 'disableSensor="1"')){
+						mainForm.disableSensor.checked = true
+					}
+					else mainForm.disableSensor.checked = false
+					
+					//fullRule
+					if(string.find(lines, 'fullRule')){
+						mainForm.fullRule.checked = true
+					}
+					else mainForm.fullRule.checked = false
+					
+					//relaunch
+					if(string.find(lines, 'relaunch="true"') || string.find(lines, 'relaunch="1"')){
+						mainForm.relaunch.checked = true
+					}
+					else mainForm.relaunch.checked = false
+					
+					//placeholder
+					var p = /*placeholder\="([\a\d\_\.\:\*]+)"*/
+					if(string.match(lines, p)){
+						var placeholder = string.match(lines, p)
+						mainForm.placeholder.text = placeholder
+					}
+					else mainForm.placeholder.text = ""
+					
+					//splitPairRule
+					var s = /*splitPairRule\="([\a\d\_\.\,\:\*]+)"*/
+					if(string.match(lines, s)){
+						var splitPairRule = string.match(lines, s)
+						mainForm.splitPairRule.text = splitPairRule
+					}
+					else mainForm.splitPairRule.text = ""
+					
+					//activityRule
+					var a = /*activityRule\="([\a\d\_\.\,\*]+)"*/
+					if(string.match(lines, a)){
+						var activityRule = string.match(lines, a)
+						mainForm.activityRule.text = activityRule
+					}
+					else mainForm.activityRule.text = ""
+					
+					//transitionRules
+					var t = /*transitionRules\="([\a\d\_\.\,]+)"*/
+					if(string.match(lines, t)){
+						var transitionRules = string.match(lines, t)
+						mainForm.transitionRules.text = transitionRules
+					}
+					else mainForm.transitionRules.text = ""
+					
+					return true;
+				}
+			}
+		}
+	}
+	if(flag == false){
+		//mainForm.msgboxErr("未发现安卓12配置文件中包含该应用：" + n)
+		//checkRemove(n)
+	}
+	return false;
+}
+
+//从输入的文本中读取配置
+function readFromRulesInput(lines){
+	if(string.find(lines, "name")){
+		try{
+			var m = /*name\="([\a\d\_\.]+)"*/
+			var name = string.match(lines, m)
+			mainForm.Package.text = name
+				
+			io.print("> 正在解析包名的配置: " + name)
+			io.print("> 安卓12配置内容为: ")
+			io.print(lines)
+			mainForm.Able12.checked = true;
+			mainForm.Able11.checked = true;
+			
+			//splitRatio
+			var s = /*splitRatio\="([\a\d\_\.]+)"*/
+			if(string.match(lines, s)){
+				var sp = string.match(lines, s)
+				mainForm.splitRatio.text = sp
+				mainForm.window_mode.selText = "分屏"
+				mainForm.is_dragable.checked = true
+			}
+			else {
+				mainForm.splitRatio.text = ""
+				mainForm.window_mode.selText = "横向拉伸"
+			}
+			
+			//clearTop
+			if(string.find(lines, 'clearTop="true"') || string.find(lines, 'clearTop="1"')){
+				mainForm.clearTop.checked = true
+			}
+			if(string.find(lines, 'clearTop="false"') || string.find(lines, 'clearTop="1"')){
+				mainForm.clearTop.checked = false
+			}
+			else mainForm.clearTop.checked = true
+			
+			//supportCameraPreview
+			if(string.find(lines, 'supportCameraPreview="true"') || string.find(lines, 'supportCameraPreview="1"')){
+				mainForm.supportCameraPreview.checked = true
+				mainForm.support_camera_preview.checked = true
+			}
+			else {
+				mainForm.supportCameraPreview.checked = false
+				mainForm.support_camera_preview.checked = false
+			}
+			//scaleMode
+			if(string.find(lines, 'scaleMode="true"') || string.find(lines, 'scaleMode="1"')){
+				mainForm.scaleMode.checked = true
+				mainForm.is_scaled.checked = true
+			}
+			else {
+				mainForm.scaleMode.checked = false
+				mainForm.is_scaled.checked = false
+			}
+			
+			//disableSensor
+			if(string.find(lines, 'disableSensor="true"') || string.find(lines, 'disableSensor="1"')){
+				mainForm.disableSensor.checked = true
+			}
+			else mainForm.disableSensor.checked = false
+			
+			//fullRule
+			if(string.find(lines, 'fullRule')){
+				mainForm.fullRule.checked = true
+				mainForm.window_mode.selIndex = 3
+			}
+			else {
+				mainForm.fullRule.checked = false
+				mainForm.window_mode.selIndex = 1
+			}
+				
+			//relaunch
+			if(string.find(lines, 'relaunch="true"') || string.find(lines, 'relaunch="1"')){
+				mainForm.relaunch.checked = true
+				mainForm.need_relaunch.checked = true
+			}
+			else {
+				mainForm.relaunch.checked = false
+				mainForm.need_relaunch.checked = false
+			}
+			//placeholder
+			var p = /*placeholder\="([\a\d\_\.\:\*]+)"*/
+			if(string.match(lines, p)){
+				var placeholder = string.match(lines, p)
+				mainForm.placeholder.text = placeholder
+				mainForm.home.text = string.replace(placeholder, ":", ",")
+			}
+			else {
+				mainForm.placeholder.text = ""
+				mainForm.home.text = ""
+			}
+			//splitPairRule
+			var s = /*splitPairRule\="([\a\d\_\.\,\:\*]+)"*/
+			if(string.match(lines, s)){
+				var splitPairRule = string.match(lines, s)
+				mainForm.splitPairRule.text = splitPairRule
+			}
+			else mainForm.splitPairRule.text = ""
+			
+			//activityRule
+			var a = /*activityRule\="([\a\d\_\.\,\*]+)"*/
+			if(string.match(lines, a)){
+				var activityRule = string.match(lines, a)
+				mainForm.activityRule.text = activityRule
+			}
+			else mainForm.activityRule.text = ""
+			
+			//transitionRules
+			var t = /*transitionRules\="([\a\d\_\.\,]+)"*/
+			if(string.match(lines, t)){
+				var transitionRules = string.match(lines, t)
+				mainForm.transitionRules.text = transitionRules
+			}
+			else mainForm.transitionRules.text = ""
+			mainForm.msgbox("已成功导入 " + name + " 的安卓12配置，并自动生成安卓11配置！", "成功")
+			
+			return true;
+		}
+	}
+	else {
+		mainForm.msgboxErr("这不是一条配置文件，请确定你没有复制错！", "失败")
+		return false;
+	}
+}
+
+//在XML结尾写入一行配置
+function addLine2Xml(xml,s,n){
+	var xml_str = string.load(xml)
+	
+	//先删除对应配置
+	//清空目标文件
+	string.save(xml, '')
+	var msg = ""
+	
+	var flag = false;
+	for lines in string.lines(xml_str){
+		//io.print(line)
+		if(string.find(lines, "name")){
+			try{
+				var m = /*name\="([\a\d\_\.]+)"*/
+				var name = string.match(lines, m)
+				//io.print(name)
+				//mainForm.List.add(name)
+				if (name == n){
+					flag = true;
+				}
+				else string.save(xml, lines + '\r\n', true)
+			}
+		}
+		else string.save(xml, lines + '\r\n', true)
+	}
+	var x = io.splitpath(xml)
+	if(flag){
+		io.print("> 已删除原有配置：", n)
+		msg = "删除原有配置，并"	
+	}
+	else {
+		io.print("> 不存在原有配置：", n, "将会尝试为其添加")
+	}
+	if(!mainForm.List.findEx(n))mainForm.List.add(n) //加入一行
+	
+	var xml_str = string.load(xml)
+	//清空目标文件
+	//string.save(xml, '')
+	var new_str = ""
+	
+	for lines in string.lines(xml_str){
+		if(!string.startWith(lines, "</")){
+			if(lines != "")
+				new_str = new_str + lines + '\r\n'
+		}
+		else end_str = lines //获取最后一行
+	}
+	
+	io.print("> 结束字符串为", end_str)
+	
+	new_str = new_str + s + '\r\n'
+	new_str = new_str + end_str + '\r\n'
+	
+	string.save(xml, new_str)
+	
+	mainForm.msgbox('已' + msg + '尝试在配置文件中添加如下内容：\r\n' + s)
+}
+
+//从XML删除一行配置
+function delLine2Xml(xml, n){
+	var xml_str = string.load(xml)
+
+	//清空目标文件
+	string.save(xml, '')
+	
+	var flag = false;
+	for lines in string.lines(xml_str){
+		//io.print(line)
+		if(string.find(lines, "name")){
+			try{
+				var m = /*name\="([\a\d\_\.]+)"*/
+				var name = string.match(lines, m)
+				//io.print(name)
+				//mainForm.List.add(name)
+				if (name == n){
+					flag = true;
+				}
+				else string.save(xml, lines + '\r\n', true)
+			}
+		}
+		else string.save(xml, lines + '\r\n', true)
+	}
+	var x = io.splitpath(xml)
+	if(flag)mainForm.msgbox("已从如下文件中删除：" + n + '\r\n\t\t' + x.name)
+	else mainForm.msgboxErr("未在如下文件中找到：" + n + '\r\n\t\t' + x.name)
+}
+
+mainForm.List.oncommand = function(id,event){ 
+	if( event == 0x1/*_LBN_SELCHANGE*/ ){
+		mainForm.Able11.checked = false;
+		mainForm.Able12.checked = false;
+		readFromRules11(mainForm.List.selText)
+		readFromRules12(mainForm.List.selText)
+		
+		mainForm.Package.text = mainForm.List.selText
+	}
+}
+
+/*
+//console.open()
+sevenZip.cmd.compress( "~/tools"
+    ,"\test.7z"
+    ,//console.log //这里可以设置一个回调函数,输出回显结果
+    )
+io.print("压缩完成")
+
+sevenZip.cmd.extract( "\test.7z"
+    ,"\test"
+    ,//console.log //这里可以设置一个回调函数,输出回显结果
+)
+io.print("解压完成")
+*/
+
+mainForm.Apply.oncommand = function(id,event){
+	if(string.endWith(mainForm.Path.text, "zip", true)){
+		var path = fsys.dlg.save('Magisk模块|*.zip|', "请输入要保存的模块文件名")
+		if(path == null) return false;
+		
+		string.save("\tempzip\product\etc\embedded_rules_list.xml", string.load("\tempzip\common\product\etc\embedded_rules_list.xml"))
+		
+		sevenZip.cmd.compress( "\tempzip\*"
+    	,path
+    	,//console.log //这里可以设置一个回调函数,输出回显结果
+    	)
+    	io.print("压缩完成")
+    }
+    else {
+        if(mainForm.Kind.text == "安卓12文件")
+    		process.exploreSelect(mainForm.rules12)
+    	else process.exploreSelect(mainForm.rules11)
+    }
+}
+
+mainForm.Search.oncommand = function(id,event){
+	var ind = mainForm.List.find(mainForm.SearchText.text)
+	mainForm.List.selIndex = ind  
+	//搜索后直接载入对应配置
+	if(ind != 0){
+		mainForm.Able11.checked = false;
+		mainForm.Able12.checked = false;
+		readFromRules11(mainForm.List.selText)
+		readFromRules12(mainForm.List.selText)
+		
+		mainForm.Package.text = mainForm.List.selText
+	}
+	//如果是调试模式，则获取摘要信息
+	/*
+	if(io.exist("\default.aproj")){
+		if(mainForm.Able12.checked == false)
+			win.clip.write('移除\t \t \t')
+		else{
+			var s = ' \t'
+			if(mainForm.splitRatio.text == ""){s = s + '0.5\t'}
+			else s = s + mainForm.splitRatio.text + '\t'
+			
+			if(mainForm.placeholder.text != ""){s = s + '分屏\t成功'}
+			else if(mainForm.activityRule.text != ""){s = s + '拉伸\t成功'}
+			else s = s + ' \t成功'
+			
+			io.print("已写入剪贴板：", s)
+			win.clip.write(s)
+		}
+	}
+	*/
+}
+
+function checkRemove(n){
+	if(mainForm.Able11.checked == false && mainForm.Able12.checked = false){
+		var ind = mainForm.List.findEx(n)
+		if(ind != 0)mainForm.List.delete(ind)
+	}
+}
+
+mainForm.Delete11.oncommand = function(id,event){
+	var flag = win.msgboxTest("确认要删除在安卓11中的该配置吗？该操作不可逆", "删除确认", mainForm.hwnd)
+	if(flag){
+		delLine2Xml(mainForm.rules11, mainForm.Package.text)
+		delLine2Xml(mainForm.list11, mainForm.Package.text)
+		mainForm.Able11.checked = false;
+		checkRemove(mainForm.Package.text)
+	}	
+}
+
+mainForm.Delete12.oncommand = function(id,event){
+	var flag = win.msgboxTest("确认要删除在安卓12/13中的该配置吗？该操作不可逆", "删除确认", mainForm.hwnd)
+	if(flag){
+		delLine2Xml(mainForm.rules12, mainForm.Package.text)
+		mainForm.Able12.checked = false;
+		checkRemove(mainForm.Package.text)
+	}	
+}
+
+mainForm.Apply11.oncommand = function(id,event){
+	//写入Rules
+	var s1 = '    <package '
+	
+	//window_mode
+	select(mainForm.window_mode.selIndex) {
+		case 1 {
+			s1 = s1 + 'window_mode="2" '
+		}
+		case 2 {
+			s1 = s1 + 'window_mode="0" '
+		}
+		case 3 {
+			s1 = s1 + 'window_mode="4" '
+		}
+		case 4 {
+			s1 = s1 + 'window_mode="3" '
+		}
+		else {
+			s1 = s1 + 'window_mode="-1" '
+		}
+	}
+	
+	//support_multi_resume
+	if(mainForm.support_multi_resume.checked == true){
+		s1 = s1 + 'support_multi_resume="true" '
+	}
+	else s1 = s1 + 'support_multi_resume="false" '
+	
+	//support_fullscreen_video
+	if(mainForm.support_fullscreen_video.checked == true){
+		s1 = s1 + 'support_fullscreen_video="true" '
+	}
+	else s1 = s1 + 'support_fullscreen_video="" '
+	
+	//support_camera_preview
+	if(mainForm.support_camera_preview.checked == true){
+		s1 = s1 + 'support_camera_preview="true" '
+	}
+	else s1 = s1 + 'support_camera_preview="" '
+	
+	//is_scaled
+	if(mainForm.is_scaled.checked == true){
+		s1 = s1 + 'is_scaled="true" '
+	}
+	else s1 = s1 + 'is_scaled="false" '
+	
+	//need_relaunch
+	if(mainForm.need_relaunch.checked == true){
+		s1 = s1 + 'need_relaunch="true" '
+	}
+	else s1 = s1 + 'need_relaunch="false" '
+	
+	//default_setting
+	s1 = s1 + 'default_setting="" '
+
+	//is_dragable
+	if(mainForm.is_dragable.checked == true){
+		s1 = s1 + 'is_dragable="true" '
+	}
+	else s1 = s1 + 'is_dragable="" '
+	
+	//is_left_window_one_third
+	s1 = s1 + 'is_left_window_one_third="" '
+	
+	//notch_adapt
+	s1 = s1 + 'notch_adapt="false" '
+	
+	//version
+	if(mainForm.version.text != ""){
+		s1 = s1 + 'version="' + mainForm.version.text + '" '
+	}
+	else s1 = s1 + 'version="" '
+	
+	//home
+	if(mainForm.home.text != ""){
+		s1 = s1 + 'home="' + mainForm.home.text + '" '
+	}
+	else s1 = s1 + 'home="" '
+	
+	//name
+	s1 = s1 + 'name="' + mainForm.Package.text + '" />'
+	
+	io.print(s1)
+	addLine2Xml(mainForm.rules11, s1, mainForm.Package.text)
+	
+	//写入List
+	var s2 = /*    <setting name="nm" miuiMagicWinEnabled="true" miuiDialogShown="false" miuiDragMode="0" />*/
+	s2 = string.replace(s2, "nm", mainForm.Package.text)
+	
+	io.print(s2)
+	addLine2Xml(mainForm.list11, s2, mainForm.Package.text)
+}
+
+mainForm.Apply12.oncommand = function(id,event){
+	//写入Rules
+	var s1 = '    <package name="' + mainForm.Package.text + '" '
+	
+	//splitRatio
+	if(mainForm.splitRatio.text != ""){
+		s1 = s1 + 'isShowDivider="true" supportFullSize="true" splitRatio="' + mainForm.splitRatio.text + '" '
+	}
+	
+	//clearTop
+	if(mainForm.clearTop.checked == true){
+		//s1 = s1 + 'clearTop="true" '
+	}
+	else s1 = s1 + 'clearTop="false" '
+	
+	//disableSensor
+	if(mainForm.disableSensor.checked == true){
+		s1 = s1 + 'disableSensor="true" '
+	}
+	//else s1 = s1 + 'disableSensor="false" '
+	
+	//fullRule
+	if(mainForm.fullRule.checked == true){
+		s1 = s1 + 'fullRule="nra:cr:rcr" '
+	}
+	
+	//supportCameraPreview
+	if(mainForm.supportCameraPreview.checked == true){
+		s1 = s1 + 'supportCameraPreview="true" '
+	}
+	//else s1 = s1 + 'supportCameraPreview="false" '
+	
+	//scaleMode
+	if(mainForm.scaleMode.checked == true){
+		s1 = s1 + 'scaleMode="1" '
+	}
+	//else s1 = s1 + 'scaleMode="false" '
+	
+	//relaunch
+	if(mainForm.relaunch.checked == true){
+		s1 = s1 + 'relaunch="true" '
+	}
+	//else s1 = s1 + 'relaunch="false" '
+	
+	//placeholder
+	if(mainForm.placeholder.text != ""){
+		s1 = s1 + 'placeholder="' + mainForm.placeholder.text + '" '
+	}
+	
+	//splitPairRule
+	if(mainForm.splitPairRule.text != ""){
+		s1 = s1 + 'splitPairRule="' + mainForm.splitPairRule.text + '" '
+	}
+	
+	//activityRule
+	if(mainForm.activityRule.text != ""){
+		s1 = s1 + 'activityRule="' + mainForm.activityRule.text + '" '
+	}
+	
+	//transitionRules
+	if(mainForm.transitionRules.text != ""){
+		s1 = s1 + 'transitionRules="' + mainForm.transitionRules.text + '" '
+	}
+	
+	s1 = s1 + '/>'
+	
+	io.print(s1)
+	addLine2Xml(mainForm.rules12, s1, mainForm.Package.text)
+}
+
+mainForm.GetActivity.oncommand = function(id,event){
+	mainForm.ADB.text = ""
+	var prcs = process.popen("adb", "shell dumpsys activity top | grep ACTIVITY")
+	prcs.logResponse(mainForm.ADB);
+}
+
+mainForm.SearchText.onOk = function(id,event){
+	mainForm.Search.oncommand();
+}
+
+mainForm.Import.oncommand = function(id,event){
+	var inputBox = win.inputBox(mainForm)
+	inputBox.text = "导入配置"
+	inputBox.info.text = "请输入从话题下拷贝的配置内容："
+	inputBox.input.text = ""
+	var name = inputBox.doModal();
+		
+	if(name){
+		lines = string.replace(name, '[\r\n]', ' ') //清除多余换行
+		readFromRulesInput(lines)
+	}
+}
+
+mainForm.SearchText.oncommand = function(id,event){
+	if(mainForm.SearchText.text == "请输入包名(支持只输入前半部分)")
+		mainForm.SearchText.text = ""
+}
+
+mainForm.CheckError.oncommand = function(id,event){
+	//筛查主页activity语法是否有错误
+	if(mainForm.placeholder.text != ""){
+		if(string.find(mainForm.placeholder.text, "[\*\,]"))
+			mainForm.msgboxErr("主页Activity 里不能有 * 或 , ", "语法错误")
+		if(!string.find(mainForm.placeholder.text, "\:"))
+			mainForm.msgboxErr("主页Activity 里必须有 : ，且前后分别有一个 activity", "语法错误")
+	}
+	
+	//筛查分屏activity语法是否有错误
+	if(mainForm.splitPairRule.text != ""){
+		if(!string.find(mainForm.splitPairRule.text, "\:"))
+			mainForm.msgboxErr("分屏Activity 里必须有 : ，且前后分别有一个 activity。两组分屏规则之间用 , 隔开", "语法错误")
+	}
+	
+	//筛查主页activity和分屏activity的覆盖是否合理
+	if(mainForm.placeholder.text != ""){
+		var p = string.splitEx(mainForm.placeholder.text, "\:")
+		//io.print(p[1])
+		if(!string.find(mainForm.splitPairRule.text, p[1]))
+			mainForm.msgbox("建议分屏时，主页Activity 的 左Activity 同时在 分屏Activity 中写一条 左Activity:* 的规则", "建议修改")
+	}
+	
+	//筛查全屏activity和互换activity是否完全覆盖
+	if(mainForm.activityRule.text != ""){
+		var a = string.split(mainForm.activityRule.text, ",")
+		var s = ""
+		var flag = false
+		for (i = 1; table.count(a); 1){
+			if(!string.find(mainForm.transitionRules.text, a[i])){
+				s = s + a[i] + '\r\n'
+				flag = true
+			}
+		}
+		if(flag == true)
+			mainForm.msgbox('建议全屏时，全屏Activity 的 每个Activity 也同时写入到 互换Activity 中。当前被排查到的 activity 有：\r\n' + s, "建议修改")
+	}
+}
+
+mainForm.ShowHelp.oncommand = function(id,event){
+	process.execute("https://ybcq.github.io/2023/04/22/%E3%80%90%E4%BF%AE%E6%94%B9%E6%95%99%E7%A8%8B%E3%80%91%E6%A8%AA%E5%B1%8F%E6%A8%A1%E5%9D%97%E4%BF%AE%E6%94%B9%E5%99%A8/")
+}
+
+mainForm.show();
+return win.loopMessage();

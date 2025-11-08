@@ -1,0 +1,26 @@
+scaleMode="1" 
+clearTop="true"
+sizecompatRatio="5:4" sizecompatRule="*" 
+splitRatio="0.35" 
+
+placeholder=""
+activityRule=""
+splitPairRule=""
+transitionRules=""
+splitRatio="0.35" fullRule="nra:cr:rcr" 
+
+adb -s 9b2cec5b shell dumpsys activity top | grep ACTIVITY
+adb shell dumpsys activity top | grep ACTIVITY
+
+com.vphonegaga.titan 光速虚拟机，自带横屏
+com.bilibili.qing 轻视频，停服了
+youqu.android.todesk Todesk自带横屏
+com.meitu.makeup 平行视界体验史一样
+com.zxscnew 中信证券，自带横屏
+com.ruanmei.ithome IT之家，自带平行视界
+com.microsoft.bing 必应，自带横屏
+com.cctv4g.cctvmobiletv 平行视界适配完全是变形
+com.hbo.hbonow HBO Max流媒体平台 唯一一个感觉有适配价值的
+com.happymod.apk 破解游戏平台
+com.facebook.katana Facebook，自带横屏
+com.wildberries.ru 俄罗斯拼多多

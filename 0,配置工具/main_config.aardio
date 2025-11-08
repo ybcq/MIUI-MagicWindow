@@ -1,0 +1,29 @@
+import console;
+import process;
+
+io.open()
+import fsys.dlg;
+
+var newxml = "    <!-- MIUI_MagicWindow+ -->" + '\r\n'
+var base = string.load("\res\embedded_rules_list_dbg.xml")
+
+var path = fsys.dlg.open('所有文件|*.*|文本文件|*.xml||',,,winform);
+if(path){
+	io.print(path)
+	
+	for lines in io.lines(path){
+		if(string.find(lines, "name")){
+			var m = /*name\="([\a\d\_\.]+)"*/
+			name = string.match(lines, m)
+			
+			if(!string.find(base, name)){
+				io.print(name)
+				newxml = newxml + name + '\r\n'
+			}
+		}
+	}
+	string.save("\output\newConfig.xml", newxml)
+	process.explore("\output\")
+}
+//io.print(newxml)
+console.pause()

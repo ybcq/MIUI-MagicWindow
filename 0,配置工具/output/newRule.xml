@@ -1,0 +1,1478 @@
+    <!-- MIUI_MagicWindow+ -->
+    <package name="com.taobao.taobao" />
+    <package name="com.tencent.mtt" />
+    <package name="com.ss.android.article.news" clearTop="true" splitRatio="0.33" />
+    <package name="com.snda.wifilocating" />
+    <package name="com.taobao.idlefish" />
+    <package name="com.alibaba.android.rimet" splitRatio="0.33" />
+    <package name="com.tmri.app.main" splitRatio="0.33" />
+    <package name="com.youku.phone" />
+    <package name="com.taobao.litetao" />
+    <package name="com.chinamworld.main" splitRatio="0.33" />
+    <package name="com.ss.android.ugc.live" />
+    <package name="com.android.bankabc" />
+    <package name="com.tencent.karaoke" splitRatio="0.33" />
+    <package name="me.ele" splitRatio="0.33" />
+    <package name="com.sdu.didi.psnger" />
+    <package name="com.sinovatech.unicom.ui" clearTop="true" supportCameraPreview="false" />
+    <package name="com.chinamworld.bocmbci" splitRatio="0.33" />
+    <package name="com.MobileTicket" />
+    <package name="com.unionpay" splitRatio="0.33" />
+    <package name="com.cainiao.wireless" />
+    <package name="cmb.pb" splitRatio="0.33" />
+    <package name="com.tencent.wework" splitRatio="0.33" />
+    <package name="com.baidu.haokan" />
+    <package name="air.tv.douyu.android" splitRatio="0.33" />
+    <package name="ctrip.android.view" />
+    <package name="com.dianping.v1" />
+    <package name="com.baidu.tieba" splitRatio="0.33" />
+    <package name="cn.gov.tax.its" splitRatio="0.33" />
+    <package name="com.yitong.mbank.psbc" splitRatio="0.33" />
+    <package name="com.sohu.inputmethod.sogou" />
+    <package name="com.jd.jrapp" splitRatio="0.33" />
+    <package name="com.Qunar" splitRatio="0.33" />
+    <package name="com.ct.client" splitRatio="0.33" />
+    <package name="com.tencent.gamehelper.smoba" splitRatio="0.33" />
+    <package name="com.jingyao.easybike" splitRatio="0.33" />
+    <package name="com.hicorenational.antifraud" />
+    <package name="com.happyelements.AndroidAnimal" />
+    <package name="com.jd.jdlite" splitRatio="0.33" />
+    <package name="com.gorgeous.lite" />
+    <package name="com.cmbchina.ccd.pluto.cmbActivity" splitRatio="0.33" />
+    <package name="com.xs.fm" />
+    <package name="com.tmall.wireless" />
+    <package name="com.meitu.meiyancamera" splitRatio="0.33" splitPairRule="com.meitu.myxj.home.activity.NewHomeActivity:*" />
+    <package name="com.cubic.autohome" splitRatio="0.33" />
+    <package name="cn.kuwo.player" splitRatio="0.33" />
+    <package name="com.sgcc.wsgw.cn" splitRatio="0.33" />
+    <package name="com.xt.retouch" splitRatio="0.33" />
+    <package name="com.jd.pingou" />
+    <package name="com.babycloud.hanju" />
+    <package name="com.pingan.paces.ccms" splitRatio="0.33" />
+    <package name="com.fenbi.android.solar" splitRatio="0.33" />
+    <package name="com.lingan.seeyou" splitRatio="0.33" />
+    <package name="com.kingpoint.gmcchh" splitRatio="0.33" />
+    <package name="com.kwai.m2u" splitRatio="0.33" />
+    <package name="com.pingan.carowner" splitRatio="0.33" />
+    <package name="net.evecom.android.mztapp" />
+    <package name="com.bankcomm.maidanba" splitRatio="0.33" />
+    <package name="com.kuaiduizuoye.scan" splitRatio="0.33" />
+    <package name="com.netease.mc.mi" />
+    <package name="com.taobao.trip" />
+    <package name="com.campmobile.snowcamera" />
+    <package name="cn.xiaochuankeji.tieba" splitRatio="0.33" />
+    <package name="com.sankuai.youxuan" />
+    <package name="com.chinatelecom.bestpayclient" splitRatio="0.33" />
+    <package name="com.meta.box" />
+    <package name="com.qq.reader" splitRatio="0.33" />
+    <package name="com.zhaopin.social" splitRatio="0.33" />
+    <package name="com.qiyi.video.lite" splitRatio="0.33" />
+    <package name="com.jifen.qukan" splitRatio="0.33" />
+    <package name="com.lemon.faceu" />
+    <package name="tv.pps.mobile" splitRatio="0.33" />
+    <package name="com.kuaikan.comic" />
+    <package name="com.job.android" splitRatio="0.33" />
+    <package name="com.tianyancha.skyeye" splitRatio="0.33" />
+    <package name="cn.cntv" splitRatio="0.33" />
+    <package name="com.baidu.baidutranslate" splitRatio="0.33" />
+    <package name="com.wm.dmall" />
+    <package name="com.cmcc.cmvideo" />
+    <package name="com.wudaokou.hippo" />
+    <package name="com.taobao.etao" />
+    <package name="com.mcdonalds.gma.cn" />
+    <package name="com.snda.lantern.wifilocating" splitRatio="0.33" />
+    <package name="com.ecitic.bank.mobile" splitRatio="0.33" />
+    <package name="com.mygolbs.mybus" splitRatio="0.33" />
+    <package name="com.czb.chezhubang" />
+    <package name="com.benqu.wuta" />
+    <package name="com.jingdong.pdj" />
+    <package name="com.yueme.itv" />
+    <package name="com.example.businesshall" splitRatio="0.33" />
+    <package name="com.huaxiaozhu.rider" />
+    <package name="com.dw.btime" splitRatio="0.33" />
+    <package name="com.sdu.didi.gsui" splitRatio="0.33" />
+    <package name="com.fenqile.fenqile" />
+    <package name="com.hipu.yidian" />
+    <package name="com.huawei.hwid" />
+    <package name="com.ximalaya.ting.lite" />
+    <package name="com.baidu.searchbox.tomas" />
+    <package name="com.cootek.crazyreader" splitRatio="0.33" />
+    <package name="com.xhey.xcamera" />
+    <package name="com.qq.ac.android" splitRatio="0.33" />
+    <package name="com.netease.edu.ucmooc" splitRatio="0.33" />
+    <package name="com.huawei.health" />
+    <package name="com.eastmoney.android.fund" splitRatio="0.33" />
+    <package name="com.app.shanghai.metro" splitRatio="0.33" />
+    <package name="com.max.xiaoheihe" splitRatio="0.33" />
+    <package name="com.baidu.wenku" splitRatio="0.33" />
+    <package name="cn.com.cmbc.newmbank" splitRatio="0.33" />
+    <package name="com.lphtsccft" splitRatio="0.33" />
+    <package name="com.wisedu.cpdaily" splitRatio="0.33" />
+    <package name="com.tencent.qqsports" splitRatio="0.33" />
+    <package name="com.jxedt" />
+    <package name="com.fy.dmmdzz.mi" />
+    <package name="com.huodao.hdphone" />
+    <package name="com.able.wisdomtree" />
+    <package name="com.qzone" splitRatio="0.33" />
+    <package name="com.cebbank.mobile.cemb" />
+    <package name="com.xinhang.mobileclient" splitRatio="0.33" />
+    <package name="com.lofter.android" splitRatio="0.33" />
+    <package name="com.kugou.android.elder" />
+    <package name="com.sinyee.babybus.recommendapp" />
+    <package name="com.lechuan.mdxs" />
+    <package name="com.tal.tiku" splitRatio="0.33" />
+    <package name="com.jjwxc.reader" splitRatio="0.33" />
+    <package name="com.zenmen.palmchat" />
+    <package name="com.android.icredit" splitRatio="0.33" />
+    <package name="fm.qingting.qtradio" splitRatio="0.33" />
+    <package name="com.chinarainbow.tft" splitRatio="0.33" />
+    <package name="com.tencent.gamehelper.pg" />
+    <package name="com.njh.biubiu" />
+    <package name="com.lwby.breader.ad" splitRatio="0.33" />
+    <package name="bubei.tingshu" />
+    <package name="com.sohu.newsclient" />
+    <package name="com.tongcheng.android" />
+    <package name="enfc.metro" splitRatio="0.33" />
+    <package name="com.imibaby.client" splitRatio="0.33" />
+    <package name="com.dw.jrccc.mi" />
+    <package name="com.xd.mnccc.mi" />
+    <package name="com.wepie.weplay" />
+    <package name="com.yitong.zjrc.mfs.android" />
+    <package name="com.baidu.student" />
+    <package name="plus.H5A84F959" />
+    <package name="com.kaola" />
+    <package name="com.pingan.papd" />
+    <package name="com.yiban.app" splitRatio="0.33" />
+    <package name="com.hxak.liangongbao" />
+    <package name="com.midea.vm.washer" />
+    <package name="com.wuba.town.client" />
+    <package name="com.vivo.easyshare" />
+    <package name="com.tencent.qt.sns" />
+    <package name="com.t3go.passenger" />
+    <package name="com.jdd.motorfans" />
+    <package name="com.all.video" />
+    <package name="com.seebaby" splitRatio="0.33" />
+    <package name="com.tencent.edu" />
+    <package name="com.baidu.youavideo" />
+    <package name="com.qq.qcloud" />
+    <package name="com.yzxx.btts.mi" />
+    <package name="com.chinamobile.mcloud" />
+    <package name="cn.com.chsi.chsiapp" />
+    <package name="com.koudai.weidian.buyer" />
+    <package name="com.qingqi.dianbo" />
+    <package name="com.tencent.qqpinyin" splitRatio="0.33" />
+    <package name="com.tencent.qqgame.xq" />
+    <package name="com.qihoo.browser" />
+    <package name="com.xueersi.parentsmeeting" splitRatio="0.33" />
+    <package name="com.cgbchina.xpt" />
+    <package name="com.tencent.transfer" />
+    <package name="android.zhibo8" splitRatio="0.33" />
+    <package name="com.by.butter.camera" />
+    <package name="com.idiom.king" />
+    <package name="com.yiche.price" />
+    <package name="com.yzxx.hgmxyj.mi" />
+    <package name="cn.yonghui.hyd" />
+    <package name="com.wujie.chengxin" />
+    <package name="com.lietou.mishu" />
+    <package name="cn.caocaokeji.user" />
+    <package name="com.ss.android.ugc.livelite" splitRatio="0.33" />
+    <package name="com.duxiaoman.umoney" />
+    <package name="com.yunxiao.haofenshu" />
+    <package name="com.tencent.gallerymanager" />
+    <package name="com.ks.kaishustory" />
+    <package name="com.bmcc.ms.ui" />
+    <package name="vip.qufenqian.wifionekey" />
+    <package name="com.zidongdianji" />
+    <package name="com.lu.ashionweather" />
+    <package name="com.tencent.wifimanager" />
+    <package name="com.mosheng" />
+    <package name="com.taobao.mobile.dipei" />
+    <package name="com.yuantiku.tutor" splitRatio="0.33" />
+    <package name="com.xiaoniu.aidou" />
+    <package name="com.plan.kot32.tomatotime" />
+    <package name="com.tencent.gamehelper.dnf" />
+    <package name="com.hundsun.winner.pazq" />
+    <package name="com.liulishuo.engzo" splitRatio="0.33" />
+    <package name="com.yangcong345.android.phone" />
+    <package name="com.mosoink.teach" />
+    <package name="com.supercleaner.lite" />
+    <package name="com.oray.sunlogin" />
+    <package name="cn.emagsoftware.gamehall" />
+    <package name="com.yuwan.tmshipin" />
+    <package name="com.xueqiu.android" />
+    <package name="org.xinkb.blackboard.android" />
+    <package name="net.csdn.csdnplus" splitRatio="0.33" />
+    <package name="com.changba" />
+    <package name="com.dou_pai.DouPai" />
+    <package name="com.zybang.parent" />
+    <package name="com.weico.international" />
+    <package name="com.sohu.sohuvideo" />
+    <package name="com.master.jilianwifi" />
+    <package name="com.alimama.moon" />
+    <package name="com.jeejen.family" />
+    <package name="com.gf.client" splitRatio="0.33" />
+    <package name="com.lianaibiji.dev" />
+    <package name="com.gtgj.view" />
+    <package name="com.superjiasu.wifi" />
+    <package name="com.mfw.roadbook" />
+    <package name="com.guotai.dazhihui" />
+    <package name="com.android.dazhihui" splitRatio="0.33" />
+    <package name="com.ppdai.loan" />
+    <package name="com.yzxx.mnfkcl.mi" />
+    <package name="com.gaotu100.superclass" />
+    <package name="com.shanbay.sentence" />
+    <package name="com.boohee.one" />
+    <package name="com.kugou.android.ktvapp" />
+    <package name="com.hoperun.intelligenceportal" />
+    <package name="com.sh.cm.shydhn" />
+    <package name="com.kiloo.subwaysurf" />
+    <package name="com.juhe.soochowcode" />
+    <package name="com.dongqiudi.news" splitRatio="0.33" />
+    <package name="mobi.w3studio.apps.android.shsmy.phone" />
+    <package name="com.yzxx.fgdxc.mi" />
+    <package name="com.huaxiaozhu.driver" />
+    <package name="com.systoon.beijingtoon" />
+    <package name="com.bankofbeijing.mobilebanking" />
+    <package name="com.laolaiwangtech" />
+    <package name="com.tencent.cmocmna" />
+    <package name="com.netease.yanxuan" />
+    <package name="com.csii.gdnx.mobilebank" />
+    <package name="com.fresh.feed" />
+    <package name="com.bwton.tjmetro" />
+    <package name="com.haier.uhome.uplus" />
+    <package name="cn.jsb.china" />
+    <package name="com.mm.android.lc" />
+    <package name="com.ucmobile.lite" />
+    <package name="com.ks.ggwzm.mi" />
+    <package name="zwzt.fangqiu.edu.com.zwzt" />
+    <package name="io.dcloud.H576E6CC7" />
+    <package name="com.hxb.mobile.client" />
+    <package name="com.jf.lkrj" />
+    <package name="com.manmanbuy.bijia" />
+    <package name="com.nxy.mobilebank.gx" />
+    <package name="com.android.haitong" splitRatio="0.33" />
+    <package name="com.xplaygame.mfbwz.mi" />
+    <package name="com.supercell.clashroyale.mi" />
+    <package name="com.gameinlife.color.paint.cn" />
+    <package name="com.dw.ttdezbj.mi" />
+    <package name="com.faloo.BookReader4Android" />
+    <package name="com.tfsmy.apps.android.tfsmy" />
+    <package name="com.txmpay.csewallet" />
+    <package name="com.c2vl.kgamebox" />
+    <package name="cn.gov.lottery" />
+    <package name="com.dianshijia.tvlive" />
+    <package name="com.xplaygame.zdjz.mi" />
+    <package name="com.kugou.shiqutouch" />
+    <package name="com.suning.mobile.epa" />
+    <package name="com.duxiaoman.wallet" />
+    <package name="com.yzxx.jjsqjw.mi" />
+    <package name="com.kongming.android.h.parent" />
+    <package name="cn.com.bmac.nfc" />
+    <package name="com.huajiao" />
+    <package name="com.peopledailychina.activity" />
+    <package name="com.ziroom.ziroomcustomer" />
+    <package name="com.ataaw.tianyi" />
+    <package name="cn.youth.news" />
+    <package name="com.guosen.android" splitRatio="0.33" />
+    <package name="com.zzw.october" />
+    <package name="com.yoloho.dayima" />
+    <package name="com.alukaxi.bqshugg.blue" />
+    <package name="com.ovelin.guitartuna" />
+    <package name="com.sxnxs.mbank" />
+    <package name="com.zy.game.bubbletea.mi" />
+    <package name="cn.com.shbank.mper" />
+    <package name="com.magicpoint.mobile.bank" />
+    <package name="com.dw.jjbb.mi" />
+    <package name="com.ydtx.camera" />
+    <package name="com.ximalaya.ting.kid" />
+    <package name="com.huati" splitRatio="0.33" />
+    <package name="com.outfit7.mytalkingtom2.mi" />
+    <package name="com.zl.fqbao" />
+    <package name="com.mengtuiapp.mall" />
+    <package name="com.chinasofti.shanghaihuateng.metroapp" />
+    <package name="com.tencent.gamereva" />
+    <package name="cn.bevol.p" />
+    <package name="com.baidu.video" />
+    <package name="com.mszmapp.detective" />
+    <package name="com.ccb.longjiLife" />
+    <package name="com.jf.my" />
+    <package name="com.csii.zybk.ui" />
+    <package name="com.qingqikeji.blackhorse.passenger" />
+    <package name="com.yzxx.qwshsc.mi" />
+    <package name="com.zy.game.psdc.mi" />
+    <package name="com.yibasan.lizhifm" />
+    <package name="com.ywhy.zjxjy.mi" />
+    <package name="com.netandroid.server.ctselves" />
+    <package name="com.klcxkj.zqxy" />
+    <package name="cn.cj.pe" />
+    <package name="com.tencent.peng" />
+    <package name="cn.com.yunma.school.app" />
+    <package name="com.yitong.fjnx.mbank.android" />
+    <package name="com.meituan.retail.v.android" />
+    <package name="com.lptiyu.tanke" />
+    <package name="com.tencent.portfolio" />
+    <package name="com.gome.eshopnew" />
+    <package name="com.hanweb.izhengzhou.android" />
+    <package name="com.hpbr.directhires" />
+    <package name="com.mfp.jelly.xiaomi" />
+    <package name="com.wondertek.miguaikan" />
+    <package name="com.yzxx.qmssyj.mi" />
+    <package name="com.kkg.PigmanGuardbattle.mi" />
+    <package name="com.yzxx.fkzgz.mi" />
+    <package name="gov.zwfw.samr.djzc" />
+    <package name="com.ants360.yicamera" />
+    <package name="com.xiaoxun.xun" />
+    <package name="com.zmzx.college.search" />
+    <package name="com.hanweb.android.sdzwfw.activity" />
+    <package name="com.dw.yqlcf.mi" />
+    <package name="com.jxnxs.mobile.bank" />
+    <package name="com.nbbank" />
+    <package name="com.chebada" />
+    <package name="com.yzxx.zdxszjxd.mi" />
+    <package name="im.weshine.keyboard" />
+    <package name="com.douguo.recipe" />
+    <package name="com.netease.lrs.mi" />
+    <package name="cn.kuwo.tingshu.lite" />
+    <package name="com.shenghuoquan" />
+    <package name="com.mybank.android.phone" />
+    <package name="com.forms" />
+    <package name="com.brianbaek.popstar" />
+    <package name="com.banciyuan.bcywebview" />
+    <package name="com.round.control" />
+    <package name="com.tencent.FileManager" />
+    <package name="com.jiankecom.jiankemall" />
+    <package name="com.secoo" />
+    <package name="com.pfu.xcxxl.jw2" />
+    <package name="com.eykid.android.ey" />
+    <package name="com.jxzj.mm.mi" />
+    <package name="cn.samsclub.app" />
+    <package name="com.xmrun.taurus" />
+    <package name="com.wisentsoft.chinapost.android" />
+    <package name="com.soufun.app" />
+    <package name="com.foundersc.app.xf" splitRatio="0.33" />
+    <package name="com.hp.printercontrol" />
+    <package name="com.HuaXiaBank.HuaCard" />
+    <package name="com.netease.mkey" />
+    <package name="com.hanweb.android.jszwfw.activity" />
+    <package name="com.ophone.reader.ui" />
+    <package name="com.unicom.wopay" />
+    <package name="cn.cntvnews" splitRatio="0.33" />
+    <package name="com.outfit7.herodash.mi" />
+    <package name="com.ultralisk.gameapp.game83.mi" />
+    <package name="com.letv.android.client" />
+    <package name="com.baidu.minivideo" />
+    <package name="com.tplink.cloudrouter" />
+    <package name="com.yzxx.wqzzmnsj.mi" />
+    <package name="com.taikang.tailife" />
+    <package name="com.crv.wanjia" />
+    <package name="com.shangfang.gylm" />
+    <package name="com.bly.dkplat" />
+    <package name="com.hfgdjt.hfmetro" />
+    <package name="com.lalamove.huolala.driver" />
+    <package name="com.cctv.cctv5ultimate" />
+    <package name="com.imaginer.yunji" />
+    <package name="com.cnki.client" />
+    <package name="com.yitong.mbank.psbc.creditcard" />
+    <package name="com.ingka.ikea.app.cn.prod" />
+    <package name="com.plat.swhydyj.android.ShenWanHongYuanSecurity" />
+    <package name="com.tsingzone.questionbank" />
+    <package name="com.bertadata.qxb" />
+    <package name="rwy.baoan.netsupervisor" />
+    <package name="com.gd.siapp" />
+    <package name="com.service.android.gov.cn" />
+    <package name="com.nursinghome.monitor" />
+    <package name="com.cleanmaster.security_cn" />
+    <package name="com.yiruike.sodacn.android" />
+    <package name="com.sevenVideo.app.android" />
+    <package name="com.xplaygame.xuancaijiezousand.mi" />
+    <package name="com.jiliguala.niuwa" />
+    <package name="com.ishowedu.peiyin" clearTop="true" splitRatio="0.33" />
+    <package name="com.tc.jclash.mi" />
+    <package name="vip.qufenqian.powerwifi" />
+    <package name="com.tencent.tmgp.lv" />
+    <package name="com.shensz.student" />
+    <package name="com.sanmao.newstudypstwo.appunion" />
+    <package name="com.blizzard.bma.cn" />
+    <package name="com.lew.game.monster.mi" />
+    <package name="sogou.mobile.explorer" />
+    <package name="com.lvsongguo" />
+    <package name="com.shoujiduoduo.dj" />
+    <package name="com.szgov.entrance" />
+    <package name="com.csii.mobilebank" />
+    <package name="com.sdjictec.qdmetro" />
+    <package name="com.kiteguard" />
+    <package name="com.henzanapp.miaomiaozhe" />
+    <package name="csii.com.qny" />
+    <package name="com.cz.bible2" />
+    <package name="com.sflep.course" />
+    <package name="com.wedobest.shudu" />
+    <package name="com.aibang.bjtraffic" />
+    <package name="com.xes.jazhanghui.activity" />
+    <package name="com.knowbox.rc.student" />
+    <package name="com.webank.wemoney" />
+    <package name="com.icbc.wapc" />
+    <package name="com.linecorp.foodcamcn.android" />
+    <package name="com.blink.academy.nomo" />
+    <package name="com.netease.vopen" splitRatio="0.33" />
+    <package name="com.yzxx.yxmstx.mi" />
+    <package name="com.outfit7.mytalkingtomfree" />
+    <package name="com.qb.qtranslator" />
+    <package name="com.fanli.android.apps" />
+    <package name="com.infothinker.gzmetro" />
+    <package name="net.cpwxw.cpfiction" />
+    <package name="cc.quanben.novel" />
+    <package name="com.xingjiabi.shengsheng" />
+    <package name="com.game.runner.mi" />
+    <package name="com.ks.dqdzz.mi" />
+    <package name="com.nx.nxapp" />
+    <package name="com.duole.chinachess.mi" />
+    <package name="com.powersi.zhrs" />
+    <package name="com.tdx.AndroidNew" />
+    <package name="cn.com.nxy.mbank.hb" />
+    <package name="com.gkid.crazyrope" />
+    <package name="com.hnzh.dldlwhjx.mi" />
+    <package name="com.game.fallrace.mi" />
+    <package name="com.ultron.crimaster" />
+    <package name="com.neusoft.iln" />
+    <package name="com.lew.game.makepizza.mi" />
+    <package name="com.dw.wxpk.mi" />
+    <package name="com.gomejr.icash" />
+    <package name="com.ywhy.yjcr.mi" />
+    <package name="com.lew.game.jjkcg.mi" />
+    <package name="com.ziipin.softkeyboard" />
+    <package name="com.shougang.shiftassistant" />
+    <package name="com.sdandroid.server.ctscard" />
+    <package name="com.fy.gyws.mi" />
+    <package name="com.lj.ljshell" />
+    <package name="com.tencent.phoenix" />
+    <package name="com.redrcd.ylxf" />
+    <package name="com.xd.sfds.mi" />
+    <package name="com.yqb.StickmanAssassin.app.mi" />
+    <package name="com.shanghaionstar" />
+    <package name="com.qdccb.bank" />
+    <package name="com.dotreader.dnovel" />
+    <package name="com.mallestudio.gugu.app" />
+    <package name="com.haodf.android" />
+    <package name="com.crgt.ilife" />
+    <package name="com.dada.mobile.shop.android" />
+    <package name="com.wumii.android.athena" />
+    <package name="cn.com.gzbank.mbank" />
+    <package name="com.ks.znbxp.mi" />
+    <package name="com.outfit7.mytalkingangelafree" />
+    <package name="com.wedobest.szhrd.mi" />
+    <package name="com.thunder.cleaner" />
+    <package name="com.kuaiyuhudong.djshow" />
+    <package name="com.mihoyo.desktopportal" />
+    <package name="com.sgcc.evs.echarge" />
+    <package name="com.ranger.stickmanhunter.mi" />
+    <package name="com.parkRace.mi" />
+    <package name="com.weatherfz2345" />
+    <package name="com.liubowang.metronome" />
+    <package name="com.devuni.flashlight" />
+    <package name="com.mendon.riza" />
+    <package name="cn.kuwo.tingshu" />
+    <package name="com.gzgx.hmxbpk.mi" />
+    <package name="com.fy.tcdx.mi" />
+    <package name="com.jike.cleaner.qingli.jkql" />
+    <package name="com.haimai.baletu" />
+    <package name="com.jmforemost.wifienvoy" />
+    <package name="com.sitech.sx.wxcs" />
+    <package name="com.jd.game.babypuzzle.mi" />
+    <package name="cn.eol.wen" />
+    <package name="com.sunboxsoft.oilforgdandroid" />
+    <package name="com.anjuke.android.newbroker" />
+    <package name="com.jiuwu" />
+    <package name="com.kiigames.wifidashi.wfds" />
+    <package name="com.lufax.android" />
+    <package name="com.neptune.tmap" />
+    <package name="com.dxy.gaia" />
+    <package name="com.woapp.hebei" />
+    <package name="com.nineton.shouzhang" />
+    <package name="org.pigai.allround" />
+    <package name="com.generdal.rhgawd.aownd" />
+    <package name="com.korean.tv" />
+    <package name="com.csii.hkb" />
+    <package name="com.tencent.tmgp.qjnn" />
+    <package name="com.alibaba.wireless.lstretailer" />
+    <package name="com.wifi.reader" />
+    <package name="cn.futu.trader" />
+    <package name="apps.lanmao.chuangke" />
+    <package name="com.careate.qyi" />
+    <package name="cn.cisc" />
+    <package name="com.czbank.mbank" />
+    <package name="com.dte.pano3d" />
+    <package name="com.pfu.xxxxl.mi" />
+    <package name="com.tbc.android.defaults" />
+    <package name="com.wedobest.xiangqi.mi" />
+    <package name="com.dedao.juvenile" />
+    <package name="com.nd.android.pandareader" />
+    <package name="com.huacheng.baiyunuser" />
+    <package name="com.csii.sns.ui" />
+    <package name="com.imbb.banban.android" />
+    <package name="com.yzxx.hjyxcj.mi" />
+    <package name="com.yzxx.hlncdz.mi" />
+    <package name="com.hichip.campro" />
+    <package name="com.komoxo.octopusime" />
+    <package name="com.xihu.shihuimiao" />
+    <package name="com.wsecar.wsjc" />
+    <package name="com.prek.android.eb" />
+    <package name="com.yzxx.bwhhdzz.mi" />
+    <package name="com.xmiles.batterymaintenance" />
+    <package name="com.gxyzcwl.microkernel" />
+    <package name="com.xingluo.molitt" />
+    <package name="com.yzxx.zdxsjjrw.mi" />
+    <package name="com.hexin.android.futures" />
+    <package name="cn.eeo.classin" />
+    <package name="com.dotamax.app" />
+    <package name="com.inspur.icity.tianjin" />
+    <package name="com.moyou.lianyou" />
+    <package name="com.ywhy.zjwzc.mi" />
+    <package name="llbt.ccb.ynga" />
+    <package name="com.tencent.gamecommunity" />
+    <package name="com.jd.game.blockdaren.mi" />
+    <package name="com.storm.smart" />
+    <package name="com.kn.bpbatcr2.mi" />
+    <package name="com.to8to.housekeeper" />
+    <package name="com.leisu.sports" />
+    <package name="photo.editor.polarr" />
+    <package name="com.fvcorp.android.aijiasuclient" />
+    <package name="com.yzxx.jjxey.mi" />
+    <package name="com.yuewen.authorapp" />
+    <package name="com.cz.hymn" />
+    <package name="com.bcxgame.lw.detectivepainter.mi" />
+    <package name="com.fy.fgpk.mi" />
+    <package name="com.joypuzzle.xswl" />
+    <package name="com.wordscon.axe" />
+    <package name="com.xd.stqq.mi" />
+    <package name="fm.xiami.main" splitRatio="0.33" />
+    <package name="cn.zepeto.main" />
+    <package name="com.yodo1.rodeo.mi" />
+    <package name="org.c2h4.afei.beauty" />
+    <package name="com.car300.activity" />
+    <package name="com.knowbox.rc.student.pk" />
+    <package name="com.dongao.kaoqian.phone" />
+    <package name="com.optimizeclean.clean" />
+    <package name="com.starbaba.answer" />
+    <package name="com.yuewen.cooperate.reader.free" />
+    <package name="com.xxwolo.cc5" />
+    <package name="com.netease.urs.android.accountmanager" />
+    <package name="com.boc.bocsoft.phone.enterprise" />
+    <package name="com.peasdasd.rodlopoa.mi" />
+    <package name="com.jiange.cleanmaster" />
+    <package name="com.yitong.hrb.people.android" />
+    <package name="com.generalcomp.batian" />
+    <package name="com.sfpay.mobile" />
+    <package name="com.jiayuan" />
+    <package name="com.doodle.dunk.mi" />
+    <package name="com.wemomo.matchmaker" />
+    <package name="com.yinhai.syAPP" />
+    <package name="com.srcb.pmbank" />
+    <package name="com.cmcc.numberportable" />
+    <package name="cn.emoney.emstock" />
+    <package name="com.guess.video" />
+    <package name="com.dm.metro" />
+    <package name="com.huabenapp" />
+    <package name="com.uzero.baimiao" />
+    <package name="com.mianfeizs.book" />
+    <package name="com.csg.palmhall" />
+    <package name="com.yt.sz.szbank" />
+    <package name="com.china3s.android" />
+    <package name="com.qunhe.designer" />
+    <package name="com.cpic.sxbxxe" />
+    <package name="com.zhongan.insurance" />
+    <package name="com.digitalgd.yst" />
+    <package name="com.yzxx.hcxstljy.mi" />
+    <package name="com.papegames.nn4.mi" />
+    <package name="com.yzxx.fkhj.mi" />
+    <package name="com.android.corpormbank" />
+    <package name="com.sepnet.teacher" />
+    <package name="com.camerasideas.instashot" />
+    <package name="com.bsoft.mhealthp.zhongshan" />
+    <package name="com.oecommunity.oeshop" />
+    <package name="cn.xiaolongonly.andpodsop" />
+    <package name="com.cd.eate.ktv" />
+    <package name="com.ustwo.monumentvalleyzz" />
+    <package name="com.zcool.community" />
+    <package name="com.qihoo.qeditor" />
+    <package name="com.cmdc.optimal" />
+    <package name="cn.fprice.app" />
+    <package name="com.mwkj.zgxqfyzz.mi" />
+    <package name="com.qc.zqwn.mi" />
+    <package name="com.zhangdan.app" />
+    <package name="im.yixin" />
+    <package name="com.znxh.zujian" />
+    <package name="com.android.clock.sd" />
+    <package name="dxwt.questionnaire.ui" />
+    <package name="com.crland.mixc" />
+    <package name="com.tenda.router.app" />
+    <package name="com.shmlightning.clean" />
+    <package name="com.baidu.iknow" />
+    <package name="com.superrhino.rarering" />
+    <package name="org.ajmd" />
+    <package name="com.xplaygame.qmsc.mi" />
+    <package name="com.tencent.start" />
+    <package name="com.iflytek.elpmobile.marktool" />
+    <package name="com.eno.xyzq.page" />
+    <package name="com.hebbank.mob" />
+    <package name="com.disney.WMW.elm" />
+    <package name="com.idiom.book" />
+    <package name="com.ichinait.gbpassenger" />
+    <package name="com.baihe" />
+    <package name="com.gzsd.mhxrty.mi" />
+    <package name="com.cubic.choosecar" />
+    <package name="com.ll.nearby" />
+    <package name="com.shoujiduoduo.wallpaper" />
+    <package name="com.hj119.sygjx" />
+    <package name="com.bishijie" />
+    <package name="com.jd.game.mazedaren.mi" />
+    <package name="com.yinhai.xjzhrs" />
+    <package name="com.koudai.weishop" />
+    <package name="com.nixwang.tinydecisions" />
+    <package name="com.kk.dict" />
+    <package name="com.photowidgets.magicwidgets" />
+    <package name="com.woobest.sgwg.mi" />
+    <package name="com.molink.john.hummingbird" />
+    <package name="com.gov.cn" />
+    <package name="cn.navibeidou.beidou" />
+    <package name="com.sy.government" />
+    <package name="com.wlqq4consignor" />
+    <package name="com.kugou.android.douge" />
+    <package name="com.zaxd.loan" />
+    <package name="com.jiaxun.acupoint" />
+    <package name="com.iss.qilubank" />
+    <package name="com.kuaidaan.app" />
+    <package name="com.tencent.nijigen" />
+    <package name="com.yunxiao.yuejuan" />
+    <package name="com.fileunzip.zxwknight" />
+    <package name="com.yitong.mbank.gy" />
+    <package name="com.tudou.android" />
+    <package name="com.martian.xyxdmx.mi" />
+    <package name="com.shixiseng.activity" />
+    <package name="com.view.asim.enterprise" />
+    <package name="com.cbest.nlppl.mi" />
+    <package name="com.coolkit" />
+    <package name="com.taichuan.meiguanggong" />
+    <package name="com.juqitech.niumowang" />
+    <package name="com.scanner.discount" />
+    <package name="comm.cchong.BloodAssistant" />
+    <package name="com.gdftu.ygh" />
+    <package name="com.ccbhome.lanhai" />
+    <package name="com.yykuaile.sh" />
+    <package name="com.tange365.icam365" />
+    <package name="com.xplaygame.tkddz.mi" />
+    <package name="com.gzgx.fkyjjh.mi" />
+    <package name="com.dingdianxiaoshuo.ebook.app" />
+    <package name="com.yitong.gansu.mobilebank" />
+    <package name="com.maxxipoint.android" />
+    <package name="com.gryphpoem.civilization.mi" />
+    <package name="com.ai.chinafpb.main" />
+    <package name="com.ht.hcrxd.mi" />
+    <package name="com.hskj.palmmetro" />
+    <package name="com.baidu.baijia" />
+    <package name="com.qh.tesla" />
+    <package name="com.geek.xgweather" />
+    <package name="com.vmos.app" />
+    <package name="com.zhnovel.fengduxs" />
+    <package name="com.ishansong" />
+    <package name="com.x8zs.sandbox" />
+    <package name="com.redfinger.app" />
+    <package name="com.onefall.SkyHover.mi" />
+    <package name="com.adamrocker.android.input.simeji" />
+    <package name="sogou.mobile.explorer.online" />
+    <package name="com.blueocean.musicplayer" />
+    <package name="com.yikaobang.yixue" />
+    <package name="com.dandelion.routine" />
+    <package name="cn.igxe" />
+    <package name="com.yuanmengzhiyuan.ei8z.yuanmeng_app" />
+    <package name="cn.com.bhbc.mobilebank.per" />
+    <package name="com.syido.decibel" />
+    <package name="com.uneed.yuni" />
+    <package name="com.bigwinepot.nwdn" />
+    <package name="com.yjs.android" />
+    <package name="com.minitech.miniaixue" />
+    <package name="com.happyelements.AndroidClover.mob" />
+    <package name="com.m37.dldl.mi" />
+    <package name="com.yaofangwang.mall" />
+    <package name="com.gzsd.klxrsj.mi" />
+    <package name="com.xplaygame.zhijianjiezousand.mi" />
+    <package name="com.bhfae.fae.production" />
+    <package name="cn.com.bjns.mbank" />
+    <package name="com.seca.live" />
+    <package name="com.hujiang.hjclass" />
+    <package name="com.xinhu.clean" />
+    <package name="com.tencent.fit.ccm" />
+    <package name="com.gbcom.gwifi.school" />
+    <package name="com.constellation.goddess" />
+    <package name="com.yimilan.yuwen.parent" />
+    <package name="com.sing.client" />
+    <package name="com.yixia.videoeditor" />
+    <package name="com.lnrb.lnrbapp" />
+    <package name="com.bendibao" />
+    <package name="com.pianotiles.KPOP.Games.gtx" />
+    <package name="com.yzxx.jsxsdbz.mi" />
+    <package name="com.welove520.qqsweet" />
+    <package name="com.mc.cpyr.wifidzg.nw" />
+    <package name="com.tencent.tmgp.qqx5" />
+    <package name="com.general.op" />
+    <package name="com.xmgov.xmapp" />
+    <package name="com.julangling.xsgjz" />
+    <package name="com.i61.dengta" />
+    <package name="com.songwu.antweather" />
+    <package name="com.hwabao.hbstockwarning" />
+    <package name="com.weige.cqcalendar" />
+    <package name="com.cntaiping.tpapp" />
+    <package name="com.excean.splay" />
+    <package name="com.cmplay.dancingline.mi" />
+    <package name="cn.edu.zjicm.wordsnet_d" />
+    <package name="com.fec.runonce" />
+    <package name="com.cdfgsanya.app.mobile" />
+    <package name="com.yyzy.mi" />
+    <package name="com.baidu.searchcraft" />
+    <package name="com.joydo.cnr.mi" />
+    <package name="com.oupeng.mini.android" />
+    <package name="com.fujian.daily" />
+    <package name="com.mobike.mobikeapp" />
+    <package name="com.tuniu.app.ui" />
+    <package name="com.vmos.pro" />
+    <package name="com.bxs.note" />
+    <package name="com.xiaoying.cardloan" />
+    <package name="com.feierlaiedu.collegelive" />
+    <package name="org.geekbang.geekTime" />
+    <package name="com.xiaoe.client" />
+    <package name="com.hundsun.mobile.hsbrowsertest" />
+    <package name="com.csii.tianjin.mobilebank" />
+    <package name="com.jeyluta.timestampcameracnfree" />
+    <package name="com.ht.esview" />
+    <package name="com.julanling.workschedule" />
+    <package name="com.ss.android.article.daziban" />
+    <package name="com.nxy.hn" />
+    <package name="com.seasun.tech.woh.jx3companion" />
+    <package name="com.lightricks.facetune.free.cn" />
+    <package name="com.welove520.welove" />
+    <package name="cderg.cocc.cocc_cdids" />
+    <package name="com.entgroup" />
+    <package name="com.doc360.client" />
+    <package name="com.izaodao.gps" />
+    <package name="com.baidu.lbs.xinlingshou" />
+    <package name="com.shinemo.qoffice.zjcc" />
+    <package name="bubei.tingshu.pro" />
+    <package name="com.jt.hanhan.video" />
+    <package name="com.tianyancha.skyeyequery" />
+    <package name="com.xsyx.user" />
+    <package name="com.wish.ycj" />
+    <package name="com.jryg.driver" />
+    <package name="com.lew.game.unroll.mi" />
+    <package name="com.hisense.ms.fly2tv" />
+    <package name="com.stonecutter.faceteng" />
+    <package name="cn.ttkmfxs.novel" />
+    <package name="com.xinmang.guitar.tuner" />
+    <package name="com.jd.game.perfectdraw.mi" />
+    <package name="com.example.a14409.countdownday" />
+    <package name="com.wanbangauto.chargepile" />
+    <package name="com.jd.game.onetpet.mi" />
+    <package name="com.yzxx.hcxssfr.mi" />
+    <package name="com.banyac.midrive.app" />
+    <package name="windinfo.android" />
+    <package name="com.baidao.silver" />
+    <package name="com.ctrip.ct" />
+    <package name="com.borui.gsjk" />
+    <package name="mixiaba.com.Browser" />
+    <package name="com.jooan.qalink" />
+    <package name="com.rytong.egfbank" />
+    <package name="com.csii.mobile.iap.bodl" />
+    <package name="com.geenk.zto.sys" />
+    <package name="com.kibey.prophecy" />
+    <package name="cn.eclicks.drivingtest" />
+    <package name="smskb.com" />
+    <package name="com.xuetangx.mobile" />
+    <package name="com.wj.wallet" />
+    <package name="jiakaokesi.app.good" />
+    <package name="com.twototwo.massage" />
+    <package name="com.qianbao.guanjia.mobile" />
+    <package name="com.octinn.birthdayplus" />
+    <package name="com.cidersoftware.slime.gtx" />
+    <package name="net.chinaedu.alioth" />
+    <package name="com.leoao.fitness" />
+    <package name="com.bdatu.geography" />
+    <package name="com.sichuanol.cbgc" />
+    <package name="com.truckhome.bbs" />
+    <package name="com.gamestar.pianoperfect" />
+    <package name="com.kongteng.streetscape" />
+    <package name="com.xinchuzu.driver" />
+    <package name="org.sugram.lite" />
+    <package name="com.hellotalk" />
+    <package name="com.cn.froad.mobileplatform" />
+    <package name="com.yzxx.kkcbf.mi" />
+    <package name="com.outfit7.talkingtom2free" />
+    <package name="com.dw.jrccc.net.mi" />
+    <package name="com.lywl.xbxxz.mi" />
+    <package name="com.zhuoqu.tiantianxiaoxingxing.mi" />
+    <package name="com.wta.NewCloudApp.jiuwei80437" />
+    <package name="com.cmb.ubank.UBUI" />
+    <package name="classic.brick.games.tetris.gtx" />
+    <package name="com.mooda.xqrj" />
+    <package name="com.Hotel.EBooking" />
+    <package name="cn.gov.chinatax.jiangsu.etax.app" />
+    <package name="com.csii.jiangnan" />
+    <package name="battymole.trainticket" />
+    <package name="com.benfu.yiqi" />
+    <package name="com.jump.chicken.mi" />
+    <package name="com.cloudy.component" />
+    <package name="com.xly.wechatrecover" />
+    <package name="cc.quanbennovel" />
+    <package name="com.jiatingjiaoyu.hoi" />
+    <package name="com.nd.pptshell" />
+    <package name="com.cvte.link" />
+    <package name="flipboard.cn" />
+    <package name="cn.wenyu.bodian" />
+    <package name="com.kdanmobile.android.pdfreader.google.pad" />
+    <package name="com.ericsson.geely" />
+    <package name="com.umpay.qingdaonfc" />
+    <package name="com.zlketang.mm" />
+    <package name="com.kwai.hisense" />
+    <package name="com.cdvcloud.qicaiyun" />
+    <package name="com.liveyap.timehut" />
+    <package name="us.pinguo.idcamera" />
+    <package name="com.c2vl.peace" />
+    <package name="com.scrolling.ball.in.sky2.ncr" />
+    <package name="com.alibaba.wireless.seller" />
+    <package name="com.boc.PBPSD" />
+    <package name="com.jd.fanli" />
+    <package name="com.jsfc.beicidaren" />
+    <package name="com.suirui.zhumu" />
+    <package name="com.yyxx.study" />
+    <package name="com.aijianji.doupai" />
+    <package name="com.dtdream.publictransit" />
+    <package name="com.luqiao.xmmetro" />
+    <package name="com.mampod.song" />
+    <package name="com.kingkr.keqiaoling" />
+    <package name="com.dreamgame.fruitbubble.mi" />
+    <package name="com.wondersgroup.hksmy" />
+    <package name="com.witgo.etc" />
+    <package name="com.ant.supercleaner.cn" />
+    <package name="com.ultralisk.gameapp.game100.mi" />
+    <package name="com.baojiazhijia.qichebaojia" />
+    <package name="com.chengyu.chenxi" />
+    <package name="com.csii.guizhou" />
+    <package name="com.game.fsfkttl.mi" />
+    <package name="com.haoyisheng.mobile.app" />
+    <package name="com.jizhi.jlongg" />
+    <package name="top.cloudfun.read" />
+    <package name="com.duoduo.tuanzhang" />
+    <package name="com.ctid.open" />
+    <package name="com.pfu.popstar" />
+    <package name="com.motoband" />
+    <package name="com.sktq.weather" />
+    <package name="com.jk.cutout.application" />
+    <package name="cn.com.busteanew" />
+    <package name="one.hh.oneclient" />
+    <package name="com.shiqichuban.android" />
+    <package name="com.quickbird.speedtestmaster" />
+    <package name="cn.zymk.comic" />
+    <package name="com.xmbranch.waterstep" />
+    <package name="com.kuaibao.skuaidi" />
+    <package name="com.ywhy.hgqqbht.mi" />
+    <package name="com.buick" />
+    <package name="com.xinmang.camera.measure.altimeter" />
+    <package name="com.corp21cn.mail189" />
+    <package name="com.yuanlue.photo" />
+    <package name="com.huiyinxun.wallet.laijc" />
+    <package name="com.czx.axbapp" />
+    <package name="com.jlmobile" />
+    <package name="com.shijun.android.prince.mi" />
+    <package name="com.polaris.shoudiantong" />
+    <package name="com.hegsyz.qqyx.mi" />
+    <package name="com.ninexiu.sixninexiu.appunion" />
+    <package name="com.rumtel.mobiletv" />
+    <package name="com.meitu.wheecam" />
+    <package name="cn.com.thit.wxmetro" />
+    <package name="io.moreless.islanding" />
+    <package name="com.fangdai.fdjsq" />
+    <package name="com.mojitec.mojidict" />
+    <package name="com.tencent.omapp" />
+    <package name="cn.v6.xiuchang" />
+    <package name="com.fosung.lighthouse" />
+    <package name="com.first.browser" />
+    <package name="com.yunti.zzm" />
+    <package name="com.yuanding.seebaby" />
+    <package name="com.cdbwsoft.weimiquan" />
+    <package name="com.jhj.cloudman" />
+    <package name="com.alibaba.icbu.app.seller" />
+    <package name="com.youxi.gameyidao.mi" />
+    <package name="com.feng.car" />
+    <package name="com.hlkj.jsgnsmrz" />
+    <package name="com.toyota.ftmsApp" />
+    <package name="com.qihoo.wg.wotbox.an" />
+    <package name="com.JindoBlu.TwoPlayerGamesChallenge.bnn" />
+    <package name="com.csii.yzbank" />
+    <package name="com.scrcu.ebap.mer" />
+    <package name="com.sunboxsoft.oilforyunnanandroid" />
+    <package name="com.huxiu" />
+    <package name="com.liubowang.magnifier" />
+    <package name="com.taobao.newjob" />
+    <package name="cn.yingmi.qieman.hermione" />
+    <package name="com.ximi.weightrecord" />
+    <package name="com.wifi.reader.free" />
+    <package name="com.nicomama.niangaomama" />
+    <package name="cn.guancha.app" />
+    <package name="ysbang.cn" />
+    <package name="com.qiqi.sns" />
+    <package name="com.metek.ultraman.mi" />
+    <package name="com.painting.xswl" />
+    <package name="com.sflep.iting" />
+    <package name="com.yzxx.qwbql.mi" />
+    <package name="com.lokinfo.android.gamemarket.mmshow" />
+    <package name="cn.lezhi.speedtest" />
+    <package name="com.duowan.live" />
+    <package name="com.xuetangx.xuetangcloud" />
+    <package name="com.candy.wifi.key" />
+    <package name="com.baidu.flashlight" />
+    <package name="com.dbscgeneral" />
+    <package name="com.yzxx.hjtszz.mi" />
+    <package name="cn.beekee.zhongtong" />
+    <package name="com.ywhy.wltnl.mi" />
+    <package name="com.glsc2" />
+    <package name="com.meituan.qcs.r.android" />
+    <package name="com.dlmm.standard" />
+    <package name="com.tencent.eim" />
+    <package name="ai.zuoye.shijuanbao" />
+    <package name="de.bmw.connected.mobile20.cn" />
+    <package name="com.gzbank.mbank.externalpk" />
+    <package name="com.tencent.blackkey" />
+    <package name="com.nfdaily.nfplus" />
+    <package name="com.msxf.loan" />
+    <package name="com.ld.klttt.mi" />
+    <package name="com.fxicrazy.sjml" />
+    <package name="photo.collage.cn" />
+    <package name="com.smxxy.sc" />
+    <package name="com.uthink.ring" />
+    <package name="com.cloudora.android" />
+    <package name="com.pdragon.new2048.mi" />
+    <package name="com.mvw.nationalmedicalPhone" />
+    <package name="com.lilithgames.afk.mi" />
+    <package name="com.wscreativity.toxx" />
+    <package name="main.smart.HY" />
+    <package name="com.airmpoint.popstar.cn.mi" />
+    <package name="com.dzwww.sd.android" />
+    <package name="com.bilibili.bilibililive" />
+    <package name="com.gaiaworkforce.mobile" />
+    <package name="com.xybsyw.user" />
+    <package name="cn.kuwo.kwmusichd" />
+    <package name="com.csii.bj.ui" />
+    <package name="com.zhumaonline.exercise" />
+    <package name="com.mobikeeper.sjgj" />
+    <package name="com.ormatch.android.asmr" />
+    <package name="com.jx.fastbrowser" />
+    <package name="com.cijianlink.cjlk" />
+    <package name="com.jianbao.doctor" />
+    <package name="com.jsyc.driver" />
+    <package name="com.medicalproject.main" />
+    <package name="com.xunruifairy.wallpaper" />
+    <package name="com.yitong.weather" />
+    <package name="com.xs.kljhd.mi" />
+    <package name="com.qianlima.yfb" />
+    <package name="com.jzbank" />
+    <package name="com.tan8.tuner" />
+    <package name="com.yzxx.jjxjy.mi" />
+    <package name="com.ywhy.xfxjxkp.mi" />
+    <package name="com.orangestudio.sudoku" />
+    <package name="com.wsecar.wsjcsj" />
+    <package name="com.ime.linyi" />
+    <package name="top.xuante.moloc" />
+    <package name="com.yusi.chongchong" />
+    <package name="com.question.canknow" />
+    <package name="com.tnt.madepingzi" />
+    <package name="com.bxkj.student" />
+    <package name="com.deppon.dpapp" />
+    <package name="cn.liuyanbing.surveyor" />
+    <package name="com.yijietc.kuoquan" />
+    <package name="com.hzpd.zqzx" />
+    <package name="com.itcode.reader" />
+    <package name="com.sunrisedutyfree.apps.sunrisemembers" />
+    <package name="com.sinochem.argc" />
+    <package name="com.stkj.picturetoword" />
+    <package name="com.coderpage.mine" />
+    <package name="com.kunshan.main" />
+    <package name="com.woqu.attendance" />
+    <package name="com.yaerxing.fkst" />
+    <package name="com.buyanchuantong.buyanshufa" />
+    <package name="cn.eol.kaoyan" />
+    <package name="com.application.limits" />
+    <package name="com.teslamotors.tesla" />
+    <package name="com.sljh.uabrowser" />
+    <package name="com.pptiku.kaoshitiku" />
+    <package name="com.suixingpay.xinquickpay.app" />
+    <package name="com.f6car.mobile" />
+    <package name="com.accordion.prettyo.cn" />
+    <package name="com.uhaozu.app" />
+    <package name="com.qyz.fengshuicompass" />
+    <package name="com.joym.xiongdakuaipao" />
+    <package name="com.taoguba.app" />
+    <package name="com.jd.game.fruitsmasher.mi" />
+    <package name="com.droi.adocker.pro" />
+    <package name="com.lws207lws" />
+    <package name="com.iss.weifangbank" />
+    <package name="com.lew.game.danceball.mi" />
+    <package name="com.hexin.plat.android.ZheshangSecurity" />
+    <package name="com.daimajia.gold" />
+    <package name="com.jingdian.tianxiameishi.android" />
+    <package name="com.gzsd.qmtyt.mi" />
+    <package name="com.eyuxizao.fifa" />
+    <package name="net.qihoo.launcher.widget.clockweather" />
+    <package name="com.eol.mobile8" />
+    <package name="com.ktykq.yaokong" />
+    <package name="com.rwy.Eshiming" />
+    <package name="jiayuan.com.aikao" />
+    <package name="com.yzxx.jedxy.mi" />
+    <package name="net.ali213.YX" />
+    <package name="com.longj.android.ljbank" />
+    <package name="cn.unipus.itest.student" />
+    <package name="jiaxiaobaodian.app.good" />
+    <package name="com.wbiao.wbapp" />
+    <package name="com.huawei.wear.guard" />
+    <package name="com.fzcx.supercoach.assistant" />
+    <package name="com.hnr.dxxw" />
+    <package name="com.aia.eservice" />
+    <package name="com.xplaygame.xcqdzz.mi" />
+    <package name="com.unicom.gudong.client" />
+    <package name="com.game.snback.mi" />
+    <package name="com.ikongji.cocity.android" />
+    <package name="com.founder.jincheng" />
+    <package name="com.app.huibo" />
+    <package name="com.zjw.chehang168" />
+    <package name="com.gzhzcj" />
+    <package name="com.xplaygame.snowball.mi" />
+    <package name="com.qianyan2.ting.en" />
+    <package name="com.anzogame.game" />
+    <package name="com.shrq.clockmorning" />
+    <package name="com.safeluck.life" />
+    <package name="com.zai.app" />
+    <package name="com.GiTeam.PuzzleSchool" />
+    <package name="com.dn.cpyr.hcdj.mi" />
+    <package name="com.jx885.lrjk" />
+    <package name="com.csii.jsh.ui" />
+    <package name="com.bytedance.ad.videotool" />
+    <package name="com.daodao.note" />
+    <package name="com.pointone.buddy" />
+    <package name="com.xiaopeng.mycarinfo" />
+    <package name="com.zsyj.trans" />
+    <package name="app.tikteam.bind" />
+    <package name="com.htffund.mobile.ec.ui" />
+    <package name="com.netease.sz.xxqa" />
+    <package name="com.autohome.mycar" />
+    <package name="com.mostone.life" />
+    <package name="com.iss.jiningbank" />
+    <package name="com.qiangqu.sjlh" />
+    <package name="com.ali.croak.mi" />
+    <package name="com.caing.news" />
+    <package name="com.lxt.cfmoto" />
+    <package name="com.fy.jrxfd.mi" />
+    <package name="com.microsoft.translator" />
+    <package name="com.pingan.hrxapp" />
+    <package name="com.bwton.msx.lyb" />
+    <package name="com.dream.coloring.book.cn" />
+    <package name="com.wedobest.HD1010.one.mi" />
+    <package name="cn.anjjie.elec.zxxy" />
+    <package name="com.leiting.gumballs.mi" />
+    <package name="com.xcsc.tdxapp" />
+    <package name="com.cgws.wealth" />
+    <package name="com.alltobid" />
+    <package name="com.mc.clean" />
+    <package name="com.peakx.stickfight.mi" />
+    <package name="com.lightpalm.fenqia" />
+    <package name="com.sprite.foreigners" />
+    <package name="com.alibaba.intl.android.apps.poseidon" />
+    <package name="jp.kingsoft.VirusVsVirus2.gtx" />
+    <package name="com.examcoo.m" />
+    <package name="com.zhichan.msmds" />
+    <package name="com.anshibo.activity" />
+    <package name="com.Upperpik.HairChallenge.bnn" />
+    <package name="com.hismart.easylink" />
+    <package name="com.jd.game.ltpmmd.mi" />
+    <package name="com.yzxx.jttwqs.mi" />
+    <package name="com.alicom.smartdail" />
+    <package name="com.zun1.flyapp" />
+    <package name="com.dalingjia.shop" />
+    <package name="com.sonkwoapp" />
+    <package name="cn.com.sf.tsbank" />
+    <package name="com.wakeup.smartband" />
+    <package name="com.babychat" />
+    <package name="com.nmpaic.hzp" />
+    <package name="cn.dylovemm.csyh" />
+    <package name="me.czhd.venus" />
+    <package name="com.xplaygame.shejian.mi" />
+    <package name="com.yoho" />
+    <package name="com.shywl.yjxz.mi" />
+    <package name="com.yoc.bekoi" />
+    <package name="com.hmz.koudaiwriting" />
+    <package name="com.youloft.icloser" />
+    <package name="com.doron.xueche.stu" />
+    <package name="com.pdragon.HD1010" />
+    <package name="com.liuniantech.fenshen123" />
+    <package name="com.babybar.headking" />
+    <package name="com.shiyue.sszg.mi" />
+    <package name="com.shenzhen.vanke.vankeyi" />
+    <package name="com.daojia.jz.app" />
+    <package name="com.biku.diary" />
+    <package name="gmcc.g5" />
+    <package name="com.yzxx.ygcwyq.mi" />
+    <package name="com.lezhi.mythcall" />
+    <package name="com.wisdomgarden.trpc" />
+    <package name="com.percentcompany.app" />
+    <package name="com.piaoquantv.piaoquanvideoplus" />
+    <package name="com.sankuai.xmpp" />
+    <package name="com.wetimetech.video" />
+    <package name="cn.sousui.word" />
+    <package name="com.bt.ycehome.ui" />
+    <package name="com.huiyun.care.viewer" />
+    <package name="com.yy.ourtimes" />
+    <package name="com.app.hider.master.pro.cn" />
+    <package name="cn.kuwo.tingshuxq" />
+    <package name="com.wdjr.loan" />
+    <package name="com.jm.fxw" />
+    <package name="com.hexin.plat.android.HengtaiSecurity" />
+    <package name="com.gnet.onemeeting" />
+    <package name="com.bill99.kuaiyishua" />
+    <package name="com.chinaums.onlineservice" />
+    <package name="com.daimler.ris.mercedesme.cn.android" />
+    <package name="com.xingfei.ui" />
+    <package name="com.xiaoyu.rightone" />
+    <package name="com.bluedancer.bluedancer" />
+    <package name="com.poliq.vyou" />
+    <package name="com.ford.fordpasscn" />
+    <package name="com.honeymoon.stone.jean.poweredit" />
+    <package name="com.app.bfb" />
+    <package name="com.game.fslkzsj.mi" />
+    <package name="com.exam8.wantiku" />
+    <package name="cc.gara.fish.jj_fish" />
+    <package name="com.ypshengxian.daojia" />
+    <package name="howbuy.android.palmfund" />
+    <package name="cn.gloud.client.mobile" />
+    <package name="com.ttzg.yzxmmlshjx.fm.mi" />
+    <package name="com.hx.game.ballmaze.mi" />
+    <package name="com.huya.fig" />
+    <package name="com.xiaobu.busapp.tsx" />
+    <package name="com.kwai.sogame" />
+    <package name="com.iss.qishangbank" />
+    <package name="me.tangke.gamecores" />
+    <package name="com.orion.xiaoya.speakerclient" />
+    <package name="com.fy.wdxd.net.mi" />
+    <package name="com.xiangzi.jukandian" />
+    <package name="com.tongzhuo.tongzhuogame" />
+    <package name="com.tencent.gamestick" />
+    <package name="cn.com.fateu.fateu" />
+    <package name="com.zhaopin.ihr" />
+    <package name="com.xgd.quyan" />
+    <package name="com.qding.community" />
+    <package name="com.hengsheng.angry.mi" />
+    <package name="com.changan.scrm" />
+    <package name="com.yzxx.jjlsj.mi" />
+    <package name="com.f1player" />
+    <package name="com.outfit7.talkingtomjetski.mi" />
+    <package name="com.camera.dakaxiangji" />
+    <package name="winretailzctsaler.zct.hsgd.wincrm" />
+    <package name="com.meican.android" />
+    <package name="top.szhqiot.tracker.py" />
+    <package name="com.laidian.xiu" />
+    <package name="com.lew.game.pianoblock.mi" />
+    <package name="io.voodoo.holeio.mt" />
+    <package name="com.offcn.mini.teacher" />
+    <package name="com.yzxx.twdyys.mi" />
+    <package name="com.yuanbei.driverlicence" />
+    <package name="com.jd.game.piperoll.mi" />
+    <package name="com.ryx.payment.merchant" />
+    <package name="com.xyjx.hardtime.mi" />
+    <package name="com.iyuba.englishfm" />
+    <package name="com.mylikefonts.activity" />
+    <package name="com.lvwan.ningbo110" />
+    <package name="com.fengwo.reading" />
+    <package name="DDT.QQ78551393" />
+    <package name="com.onething.minecloud" />
+    <package name="com.wander.android.wallpaper" />
+    <package name="com.youloft.dearIceBox" />
+    <package name="com.linyi.apps.android.rybsmy" />
+    <package name="com.lixiangdong.LCDWatch.Pro" />
+    <package name="com.apicloud.A6999270760613" />
+    <package name="cn.suanya.train" />
+    <package name="com.lphtsccft.zlqqt2" />
+    <package name="com.gamejoy.game.onetfruit" />
+    <package name="vStudio.Android.Camera360" />
+    <package name="com.lemon.u_course.talent" />
+    <package name="com.xplaygame.crazyball.mi" />
+    <package name="com.mayi.android.shortrent" />
+    <package name="com.payment.kay.aaa" />
+    <package name="com.evian.mobile.water.lq" />
+    <package name="com.kun.ems" />
+    <package name="com.ruijie.whistle" />
+    <package name="et.song.aj" />
+    <package name="com.liubowang.photoretouch" />
+    <package name="com.lixiangdong.audioextrator" />
+    <package name="io.dcloud.H5AC4580F" />
+    <package name="com.zxly.assist" />
+    <package name="com.fy.sgds.net.mi" />
+    <package name="com.weisheng.vvic" />
+    <package name="com.meijiale.macyandlarry" />
+    <package name="com.StefMorojna.SpaceflightSimulator.mt" />
+    <package name="com.meituan.banma.errand" />
+    <package name="com.sankuai.meituan.pai" />
+    <package name="com.leiting.jm.mi" />
+    <package name="io.dcloud.Gulu373" />
+    <package name="com.wewave.circlef" />
+    <package name="com.marriott.mrt" />
+    <package name="com.tencent.tmgp.jnbg2" />
+    <package name="com.example.reader.main" />
+    <package name="com.sunsoft.zyebiz.b2e" />
+    <package name="com.baidu.searchbox.vision" />
+    <package name="com.wedobest.llk" />
+    <package name="com.microsoft.office.officelens" />
+    <package name="com.dd.sandsortpuzzle.xc" />
+    <package name="com.baidu.baike" />
+    <package name="com.disney.shanghaidisneyland_goo" />
+    <package name="cn.weli.weather" />
+    <package name="com.book.biqugelou" />
+    <package name="com.gaokaozhiyuan" />
+    <package name="com.topgether.sixfoot" />
+    <package name="com.ks.kzyj.mi" />
+    <package name="cloud.miplus.tft" />
+    <package name="com.bcxgame.lw.superclass.app.mi" />
+    <package name="com.Apricotforest_epocket" />
+    <package name="com.antutu.aibenchmark" />
+    <package name="com.outfit7.mytalkinghank.mi" />
+    <package name="com.wodidashi.paint" />
+    <package name="co.welab.wolaidai" />
+    <package name="com.offlineCloud" />
+    <package name="cn.swifthealth.patientApp" />
+    <package name="com.wjj.newscore" />
+    <package name="com.gl.happyalbum" />
+    <package name="com.imdada.winner" />
+    <package name="com.prompt.lines" />
+    <package name="com.watsons.mobile" />
+    <package name="com.yizhilu.qh" />
+    <package name="com.hithink.scannerhd" />
+    <package name="net.huanci.hsj" />
+    <package name="com.gymbo.enlighten" />
+    <package name="com.baixin.mobilebank" />
+    <package name="com.fqdy.groot" />
+    <package name="com.cankaoxiaoxi.app1" />
+    <package name="com.jinqikeji.tell" />
+    <package name="com.lu.calendar" />
+    <package name="cn.qiutinghe.voicechanger" />
+    <package name="com.singxie.btdownload" />
+    <package name="com.yeqin.enterpriseservice" />
+    <package name="com.yiqizuoye.teacher" />
+    <package name="com.hx.game.rocketmaster.mi" />
+    <package name="com.pingan.easyloan" />
+    <package name="org.watermelon.mi" />
+    <package name="com.video.msss" />
+    <package name="com.digigd.yjxy" />
+    <package name="com.allnow.global.app" />
+    <package name="com.meetstudio.app.Zither" />
+    <package name="reader.com.xmly.xmlyreader" />
+    <package name="com.holyblade.cloud.platform" />
+    <package name="com.xiangguo.ListWord" />
+    <package name="com.ncarzone.tmyc" />
+    <package name="com.cmbchina.zhaodai" />
+    <package name="com.lcf.wifidecode" />
+    <package name="zsjh.sx.novel" />
+    <package name="com.kaola.spqsy" />
+    <package name="com.lywl.kuaijie" />
+    <package name="com.shuiyinbao.android" />
+    <package name="com.tantan.x" />
+    <package name="com.ywhy.bbgzdg.mi" />
+    <package name="com.dddzs.driver" />
+    <package name="com.coolapps.doutu" />
+    <package name="com.huishuaka.fangdai" />
+    <package name="com.yywl.txmeg" />
+    <package name="com.sinovatech.wdbbw.kidsplace" />
+    <package name="onyuan.weiqi2.mi" />
+    <package name="com.benben.dixiong.sisisi2" />
+    <package name="com.vv51.mvbox" />
+    <package name="com.fingertip.tyt.mi" />
+    <package name="com.dtw.batterytemperature" />
+    <package name="com.rorally.wordtools" />
+    <package name="com.eol.mobile9" />
+    <package name="com.yzxx.rzxswd.mi" />
+    <package name="com.jd.game.candyfrenzy.mi" />
+    <package name="com.synology.DSfinder" />
+    <package name="com.theone.aipeilian" />
+    <package name="com.aoyou.victory_android" />
+    <package name="com.singxie.nfccardread" />
+    <package name="com.gzqs.dsldyxlm.mi" />
+    <package name="org.zywx.wbpalmstar.widgetone.uex11296876" />
+    <package name="w2a.app7881.com" />
+    <package name="com.tian.voicechangerpro" />
+    <package name="com.ym.rxatcrpk.mi" />
+    <package name="com.fengyuncx.yydriver" />
+    <package name="com.hexin.plat.android.BohaiSecurity" />
+    <package name="com.example.android_ksbao_stsq" />
+    <package name="com.xiaowu.switcher" />
+    <package name="com.fuwang.franchise" />
+    <package name="com.xiaolinghou.monkeyaq" />
+    <package name="com.wuba.borrowfinancials" />
+    <package name="com.zhangshangyiqi.civilserviceexam" />
+    <package name="com.guokr.mobile" />
+    <package name="com.asus.aihome" />
+    <package name="com.jooan.smarteye.lenovo" />
+    <package name="com.anzogame.wzry" />
+    <package name="com.ss.android.lark.debug" splitRatio="0.33" />
+    <package name="com.xiaomi.smarthome" />
+    <package name="com.yitong.mbank" />
+    <package name="com.wb.elsfkx.mi" />
+    <package name="com.xiaobanlong.main" />
+    <package name="com.poiujies.Sjgvfhv.mi" />
+    <package name="com.jd.game.candycollection.mi" />
+    <package name="com.ywhy.xstks.mi" />
+    <package name="com.yzxx.bttp2.mi" />
+    <package name="com.sqw.jwdzg.mi" />
+    <package name="com.financial.quantgroup" />
+    <package name="com.ctrip.jr" />
+    <package name="com.game.fsyyttz.mi" />
+    <package name="com.wifi.link.wfys" />
+    <package name="com.quliang.jsb" />
+    <package name="com.bjetc.mobile" />
+    <package name="com.game.tckpxfx.mi" />
+    <package name="com.accordion.analogcam.cn" />
+    <package name="cc.lianzainovel" />
+    <package name="com.newgen.sjdb" />
+    <package name="com.app.tideswing" />
+    <package name="com.longloan.xinchengfenqi" />
+    <package name="com.hexin.plat.android.WanlianSecurity" />
+    <package name="com.ark.superweather.cn" />
+    <package name="com.o2game.fruitblend3d.xsl" />
+    <package name="com.yzxx.zqcdds.mi" />
+    <package name="com.yuanda.cy_professional_select_stock" />
+    <package name="com.game.speedCar.mi" />
+    <package name="com.funnyrace.mi" />
+    <package name="mobi.htjsq.accelerator" />
+    <package name="com.ball.puzzle.board.bubble.dropball" />
+    <package name="com.slkj.paotui.worker" />
+    <package name="com.max.maxaccelerator" />
+    <package name="com.mfxsssq.search" />
+    <package name="com.bcxgame.lw.paintcolor.app.mi" />
+    <package name="com.sws.yindui" />
+    <package name="com.fujicubesoft.ManyBricksBreaker.fhp" />
+    <package name="com.jd.game.escapemarriage.mi" />
+    <package name="com.ddmh.magic.camera" />
+    <package name="com.clipzz.media" />
+    <package name="com.kuaidihelp.posthouse" />
+    <package name="com.yunchuan.emoticon" />
+    <package name="com.tbs.clubcard" />
+    <package name="com.truestudio.erhutuner" />
+    <package name="com.zdkj.littlebearaccount" />
+    <package name="com.telecom.video" />
+    <package name="com.dream.daanjun" />
+    <package name="cn.poco.interphoto2" />
+    <package name="com.xiaodao.geocompass" />
+    <package name="com.xiaoniu.zuilaidian" />
+    <package name="com.baidu.hao123" />
+    <package name="com.czcb.mbank" />
+    <package name="com.people.health.doctor" />
+    <package name="com.larksuite.suite" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kastandard" splitRatio="0.33" />
+    <package name="cn.wps.yun" splitRatio="0.33" />
+    <package name="com.ss.android.lark.ljht" splitRatio="0.33" />
+    <package name="com.ss.android.lark.saastest" splitRatio="0.33" />
+    <package name="com.ss.android.lark.saaspoc" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kadev" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kausts" splitRatio="0.33" />
+    <package name="com.ss.android.lark.htone" splitRatio="0.33" />
+    <package name="com.ss.android.lark.greentown" splitRatio="0.33" />
+    <package name="com.ss.android.lark.md_zht" splitRatio="0.33" />
+    <package name="com.ss.android.lark.ka31" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kadevcicd" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kacrc" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kazdtq" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kahd" splitRatio="0.33" />
+    <package name="com.ss.android.lark.shlx" splitRatio="0.33" />
+    <package name="com.ss.android.lark.jinhui" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kastd401" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kazdupg" splitRatio="0.33" />
+    <package name="com.ss.android.lark.ka502p1" splitRatio="0.33" />
+    <package name="com.ss.android.lark.ka502s1" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kaupg" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kadbupg" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kastd407r1" splitRatio="0.33" />
+    <package name="com.ss.android.lark.ka410s1" splitRatio="0.33" />
+    <package name="com.ss.android.lark.xhjt" splitRatio="0.33" />
+    <package name="com.ss.android.lark.transsion" splitRatio="0.33" />
+    <package name="com.ss.android.lark.ihaier" splitRatio="0.33" />
+    <package name="com.ss.android.lark.rongchuang" splitRatio="0.33" />
+    <package name="com.ss.android.lark.cjy" splitRatio="0.33" />
+    <package name="com.ss.android.lark.yumchina" splitRatio="0.33" />
+    <package name="com.ss.android.lark.catl" splitRatio="0.33" />
+    <package name="com.ss.android.lark.seazen" splitRatio="0.33" />
+    <package name="com.ss.android.lark.fjdz" splitRatio="0.33" />
+    <package name="com.ss.android.lark.hxjk" splitRatio="0.33" />
+    <package name="com.ss.android.lark.ka410p1" splitRatio="0.33" />
+    <package name="com.ss.android.lark.ka410p2" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kapoc3" splitRatio="0.33" />
+    <package name="com.ss.android.lark.kaxhs" splitRatio="0.33" />
+    <package name="com.ss.android.lark.cmi" splitRatio="0.33" />
+    <package name="com.ss.android.lark.taikang" splitRatio="0.33" />
+    <package name="com.ss.android.lark.cxmt" splitRatio="0.33" />
+    <package name="com.ss.android.lark.llzf" splitRatio="0.33" />
+    <package name="com.ss.android.article.video" />
+    <package name="com.coolapk.market" splitRatio="0.33" />
+    <package name="com.m4399.gamecenter" splitRatio="0.33" />
+    <package name="com.zte.zmall" splitRatio="0.33" />
+    <package name="io.faceapp" splitRatio="0.33" />
+    <package name="com.iznet.thailandtong" />
+    <package name="com.oray.pgymanager" splitRatio="0.33" />
+    <package name="com.mfcloudcalculate.networkdisk" />
+    <package name="com.listendown.Music" />
+    <package name="com.miui.fm" />
+    <package name="com.veryfast.collection" />
+    <package name="com.chuyiapp.cy" splitRatio="0.33" />
+    <package name="com.xhnf.app_metronome" />
+    <package name="com.clicli.app" splitRatio="0.33" />
+    <package name="com.sina.weibog3" splitRatio="0.33" />
+    <package name="com.meishu.SmartCommunity" />
+    <package name="com.sinovatech.unicom.ui" splitRatio="0.33" />
+    <package name="com.dtno1.WearPro" />
+    <package name="com.yingsheng.hayloufun" />
+    <package name="com.upgadata.up7723" />
+    <package name="com.taptap" splitRatio="0.33" />
+    <package name="cn.ninegame.gamemanager" splitRatio="0.33" />
+    <package name="com.aiwu.market" />
+    <package name="com.lizisy.gamebox" splitRatio="0.33" />
+    <package name="com.maiyou.milu" splitRatio="0.33" />
+    <package name="com.shanwan.virtual" />
+    <package name="com.xiaoguo101.yixiaoerguo" splitRatio="0.33" />
+    <package name="deelig.omofun29z9h239.anime" splitRatio="0.33" />
+    <!-- ver 0.94 -->
+    <!-- ver 0.95 -->
+    <package name="idm.internet.download.manager.plus" splitRatio="0.33" />
+    <package name="cn.com.bookan" splitRatio="0.33" />
+    <package name="com.bilibili.app.blue" splitRatio="0.33" />
+    <package name="com.bilibili.app.in" splitRatio="0.33" />
+    <package name="gjzs.online" splitRatio="0.33" />
+    <package name="com.jibaoge.jibaogeapp" splitRatio="0.33" />
+    <package name="com.chunqiu.ahsp" splitRatio="0.33" />
+    <!-- ver 0.96 -->
+    <package name="com.facetech.konking" splitRatio="0.33" />
+    <package name="com.xiaomi.mico" splitRatio="0.33" />
+    <!-- ver 0.97 -->
+    <package name="com.lmf.xidi" splitRatio="0.33" />
+    <package name="free.tube.premium.advanced.tuber" splitRatio="0.33" />
+    <package name="com.leiting.lt100" />
+    <package name="io.geph.android" />
+    <package name="com.android.tnaant" />
+    <package name="com.bjsm.dungeonlab" />
+    <package name="com.teheranvpo" />
+    <package name="co.vpnmelon.free.unblock.unlimited.turbo.proxy" />
+    <package name="co.infinitysoft.vpn360" />
+    <package name="com.yogavpn.free.unblock.ligher.proxy" />
+    <package name="net.translives.app" />
+    <package name="com.mimei17" />
+    <package name="com.network.xf100" />
+    <package name="com.sagadsg.user.mada115857" />
+    <package name="cc.dingnet.yunfan" />
+    <package name="com.ninetyone.pron.android" />
+    <package name="com.zuiyes.wenai" />
+    <package name="io.github.naco_siren.gmgard" />
+    <package name="com.nemo.vidmate" />
+    <package name="cc.shadowfox.client" />
+    <package name="co.bestline.turbo.free.vpn.unblock.proxy" />
+    <!-- ver 0.98 -->
+    <package name="com.dogal.kenhuangzhe.geh.dashixiong" />
+    <package name="com.violetele.zdvod" />
